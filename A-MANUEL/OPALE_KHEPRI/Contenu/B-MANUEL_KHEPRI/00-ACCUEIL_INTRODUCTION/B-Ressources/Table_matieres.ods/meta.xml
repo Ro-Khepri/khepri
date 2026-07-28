@@ -1,6 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sfm:ods xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta">
-	<op:imgM xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
-		<sp:title>Table des matières du manuel général Khépri</sp:title>
-	</op:imgM>
-</sfm:ods>
+<?xml version="1.0"?>
+<sfm:ods xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" version="1"><op:imgM><sp:title><op:title><sc:para xml:space="preserve">Table des matières du manuel général Khépri</sc:para></op:title></sp:title></op:imgM></sfm:ods>
