@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:odRootM>
+			<sp:version>V1</sp:version>
+			<sp:date>31/01/2026</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para xml:space="preserve">Patrick PRODHOME</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:logo sc:refUri="/B-MANUEL_KHEPRI/80-COMMUNICATION/LOGO/Logo_Khepri-01.png"/>
+			<sp:settings/>
+		</op:odRootM>
+		<sp:ue sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/00-module_TT-2026.xml"/>
+	</op:odRoot>
+</sc:item>

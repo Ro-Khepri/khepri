@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:activity xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Titre</sp:title>
+		</op:uM>
+		<sp:expStep sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/A-contenus/0-1-PRESENTATION/00.01.01-Objectifs.xml"/>
+		<sp:div>
+			<op:activityDiv>
+				<op:activityDivM>
+					<sp:title>S1</sp:title>
+				</op:activityDivM>
+				<sp:expStep sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/A-contenus/0-1-PRESENTATION/00.01.02-Benchmark.xml"/>
+				<sp:div>
+					<op:activityDiv>
+						<op:activityDivM>
+							<sp:title>S1.1</sp:title>
+						</op:activityDivM>
+						<sp:expStep sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/A-contenus/0-1-PRESENTATION/00.01.03-Scarabee_KHEPRI.xml"/>
+					</op:activityDiv>
+				</sp:div>
+				<sp:expStep sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/A-contenus/0-1-PRESENTATION/00.01.04-Acteurs_planification.xml"/>
+			</op:activityDiv>
+		</sp:div>
+		<sp:div>
+			<op:activityDiv>
+				<op:activityDivM>
+					<sp:title>S2</sp:title>
+				</op:activityDivM>
+				<sp:expStep sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/A-contenus/0-2-CADRE_PEDAGOGIQUE/00.02.01-Approche_MDAO.xml"/>
+			</op:activityDiv>
+		</sp:div>
+	</op:activity>
+</sc:item>

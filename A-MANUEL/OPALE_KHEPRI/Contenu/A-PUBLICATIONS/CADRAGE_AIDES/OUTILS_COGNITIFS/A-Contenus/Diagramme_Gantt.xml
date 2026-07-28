@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Diagramme de Gantt</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Utilité d'un diagramme de Gantt dans un projet</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Un <sc:inlineStyle role="emp">diagramme de Gantt</sc:inlineStyle> est un outil de planification qui permet de représenter visuellement l'organisation d'un projet dans le temps. Il prend la forme d'un tableau chronologique dans lequel chaque tâche est matérialisée par une barre horizontale, positionnée entre une date de début et une date de fin.</sc:para>
+								<sc:para xml:space="preserve">Il permet de  gérer simultanément : recherche, conception, réalisation, tests, rédaction et préparation de la soutenance. Il aide à  :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">structurer le projet en tâches clairement identifiées ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">visualiser la durée de chaque tâche ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">organiser les tâches dans le bon ordre ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">repérer les &quot;inputs&quot; imprévus et les dépendances (ce qui doit être terminé avant de commencer autre chose) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">suivre l'avancement réel par rapport au planning prévu ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">anticiper les retards et réajuster le plan de travail.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Élaborer un diagramme de Gantt</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">1. Lister les grandes étapes du projet</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Exemple : cadrage → état de l'art → conception → développement → validation → rapport → soutenance</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">2. Découper en tâches concrètes</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Chaque tâche doit être mesurable et avoir un livrable.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">3. Estimer les durées</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Soyez réalistes (et prévoyez une petite marge).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">4. Identifier les dépendances</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Exemple : impossible de tester avant d'avoir développé.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">5. Positionner les tâches dans le calendrier</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">par séances ou semaines ou mois selon la durée du projet.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/Diagramme_Gantt-01.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Intérêts pédagogiques</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Utiliser un diagramme de Gantt permet de :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">travailler comme en gestion de projet professionnelle ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">mieux répartir votre charge de travail ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">éviter le travail de dernière minute ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">communiquer clairement le planning entre élève et encadrant ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">développer votre capacité d'organisation et d'anticipation.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Outils informatiques associés</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Il existe de nombreux outils plus ou moins compliqués permettant de  créer et gérer un diagramme de Gantt.</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Tableur (Excel, LibreOffice Calc) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Outils en ligne (Notion, Trello avec planning, GanttProject) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Logiciels de gestion de projet.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Des logiciels spécifiques sont à votre disposition dans le OneDrive Khépri (répertoire 04-E). Ils sont largement suffisants pour conduire vos projets.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

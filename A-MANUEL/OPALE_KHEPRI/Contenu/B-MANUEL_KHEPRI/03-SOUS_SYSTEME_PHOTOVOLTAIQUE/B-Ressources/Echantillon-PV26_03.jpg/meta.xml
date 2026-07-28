@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfm:jpg_jpeg xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sfm="http://www.utc.fr/ics/scenari/v3/filemeta">
+	<op:imgM xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<sp:title># PV 2026-03 #</sp:title>
+		<sp:info>
+			<op:infoBin>
+				<sp:cpyrgt>
+					<op:sPara>
+						<sc:para xml:space="preserve">fabrication #21# + #PDM# - Mars 2026</sc:para>
+					</op:sPara>
+				</sp:cpyrgt>
+			</op:infoBin>
+		</sp:info>
+		<sp:alt>
+			<sp:desc>
+				<op:sTxt>
+					<sc:para xml:space="preserve">#21# &gt; assemblage des cellules</sc:para>
+					<sc:para xml:space="preserve">#PDM# &gt; Encapsulage sous vide</sc:para>
+				</op:sTxt>
+			</sp:desc>
+		</sp:alt>
+	</op:imgM>
+</sfm:jpg_jpeg>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Emploi et apport de l'intelligence artificielle générative (IA)</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+						<sp:title>Introduction</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Aujourd'hui, nul de peut ignorer la réactivité et l'étendue des connaissances apportées par l'emploi de l'intelligence artificielle (IA) :  Les questions qui autrefois généraient des centaines de liens dans un &quot;explorateur web&quot; trouvent désormais quasi-immédiatement des solutions ciblées, rédigées et documentées  par les intelligences artificielles génératives.</sc:para>
+								<sc:para xml:space="preserve">Force est de constater que l'IA est désormais incontournable et d'une incomparable efficacité dans les domaines de la veille, de la recherche d'informations et la génération de synthèses, d'images ou de documents rédactionnels élaborés.</sc:para>
+								<sc:para xml:space="preserve">Aussi, bien employée, l'IA  permet de structurer ses idées,  d'effectuer des itérations efficaces et d'améliorer notre productivité et nos travaux rédactionnels. Cependant, au-delà du gain de temps, cette démarche nécessite de conserver un esprit critique et une vérification scientifique permanente.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Pré-requis à l'emploi de l'IA dans le projet Khépri</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le porteur du projet khépri (Patrick PRODHOME), assisté d'un sympathisant (Julien NADAUD), ont élaboré une formation relative à l'emploi de l'intelligence artificielle pour des activités de veille et de travaux rédactionnels scientifiques et techniques du niveau licence scientifique.</sc:para>
+								<sc:para xml:space="preserve">Cette formation s'articule autour d'un « brainstorming » illustré par la carte heuristique &quot;Xmind&quot; ci-dessous et accessible à tous dans le &quot;Drive Khépri&quot;.</sc:para>
+								<sc:para xml:space="preserve">Cette carte heuristique se résume selon les principaux points suivants :</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/XMIND-IA-01.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>01 – Généralités sur l'Intelligence Artificielle</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">•Compréhension IA vs Humain :</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">L'IA imite certains processus cognitifs humains, mais reste fondamentalement différente : elle fonctionne sur des algorithmes, sans conscience ni intuition.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Interface IA vs Humain :</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">La collaboration homme-machine repose sur une bonne formulation des demandes (prompts) et la compréhension des réponses générées.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Adaptation et limitations :</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">L'IA s'adapte dans une certaine mesure aux contextes, mais elle a des limites :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Pas de créativité réelle</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Biais liés aux données d'entraînement</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Incapacité à raisonner comme un humain</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>02 – Maîtrise des PROMPTS (Instructions données à une IA)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">A. PROMPT INITIAL – Construire une demande efficace</sc:inlineStyle></sc:para>
+								<sc:orderedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Fixer le contexte : expliquer clairement le domaine ou la situation.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Fixer le rôle de l'IA : ex. « Tu es un assistant pédagogique ».</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Verbes d'action : utiliser des commandes claires (expliquer, analyser, résumer...).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Cahier des charges : préciser les paramètres attendus dans la réponse.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Formater la réponse : demander une forme précise (liste, tableau, paragraphe...).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Contenus longs : prévoir des découpages ou relances si nécessaire.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Alternatives / variations : demander des suggestions ou versions différentes.</sc:para>
+									</sc:listItem>
+								</sc:orderedList>
+								<sc:para xml:space="preserve">Pour des sujets complexes, il est possible d'utiliser des modèles (template) préétablis de prompts en organisant les informations fournies à l'IA, pour ce faire utiliser des &lt; MARQUEURS &gt; pour identifier clairement les parties distinctes tels que :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">&lt;TITRE DE DOCUMENT&gt; &lt;CONTEXTE&gt; &lt;CAHIER DES CHARGES&gt;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">&lt;RÔLE&gt; &lt;OBJECTIF&gt; &lt;QUESTION&gt; &lt;FORME DE LA RÉPONSE&gt;</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">B. OPTIMISATION – Améliorer le dialogue avec l'IA</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Recentrer le sujet : reformuler pour éviter les digressions.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Itérations : affiner progressivement la réponse, comme dans une démarche de prototypage.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">C. Traçabilité / Qualité</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Suivre l'évolution des échanges</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Évaluer la pertinence et la cohérence des réponses</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Conclusion :</sc:inlineStyle> Ces bases permettent  de comprendre comment piloter une interaction intelligente avec une IA, un point clé pour le management de projets technologiques ou de systèmes complexes.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>03 - Procédure d'emploi</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'emploi d'aller-retours successifs entre une &quot;carte heuristique&quot; et une intelligence artificielle se révèle particulièrement efficace dans les domaines liés au projet Khépri :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">la carte heuristique permet de noter les mots et actions clefs sans se préoccuper de leurs causalité  ni de rédiger des longs développements ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">l'IA permet de regrouper, hiérarchiser, synthétiser et rédiger vos différents travaux</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Pour Khépri, il est donc recommandé d'employer la  procédure générale  suivante :</sc:para>
+								<sc:orderedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Réaliser une carte mentale dans laquelle figure tous les éléments connus du sujet à traiter. Cette présentation issue de brainstorming permet dès le départ de fixer un plan général numéroté et une hiérarchisation des différents paramètres.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Préparer un prompt avec les marqueurs explicatifs appropriés.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Soumettre la carte mentale en pièce jointe du prompt à l'IA.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Vérifier, enrichir et faire évoluer votre carte mentale avec les résultats fournis par l'IA.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Faire les itérations nécessaires pour converger vers la résolution  de la problématique étudiée.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Sauvegarder vos démarches pour conserver la maîtrise de l'ensemble de ce processus et pouvoir en rendre compte dans vos travaux rédactionnels finaux.</sc:para>
+									</sc:listItem>
+								</sc:orderedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>Taxonomie de Bloom et Intelligence artificielle</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">En 1956 le psychologue américain Benjamin Bloom a développé une taxonomie permettant de caractériser les étapes successives d'un enseignement ou d'une formation pluridisciplinaire. L'intégration de l'intelligence artificielle ne remet pas en cause cette hiérarchisation, mais en transforme l'usage. Les niveaux inférieurs (mémoriser, comprendre) tendent à être partiellement externalisés, tandis que les niveaux supérieurs (analyser, évaluer, créer) deviennent centraux et peuvent utilement être optimisés par l'IA, sans pour remplacer les outils cognitifs adaptés au projet.</sc:para>
+								<sc:para xml:space="preserve">L'IA ne remplace pas la démarche cognitive mais facilite la montée en abstraction  et la prise de compétence(s). Elle déplace ainsi le cœur de l'évaluation vers les capacités d'analyse, de jugement et de création, qui demeurent les marqueurs essentiels d'une formation de haut niveau.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/IA-iceberg-Bloom-01.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:filtered>
+							<op:filter/>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Ce schéma propose une lecture moderne de l'apprentissage dans une démarche de projet, en s'appuyant sur la taxonomie proposée en 1956 par le psychologue américain Benjamin Bloom et en intégrant le rôle désormais central de l'intelligence artificielle (IA).</sc:para>
+										<sc:para xml:space="preserve">L'arrivée du bateau au pavillon suspect symbolise une situation concrète : un problème à résoudre, une mission à mener, souvent marquée par l'incertitude, des contraintes et des objectifs à atteindre. C'est cette confrontation au réel qui déclenche l'apprentissage. Il ne s'agit plus seulement d'acquérir des connaissances abstraites, mais de répondre à un besoin.</sc:para>
+										<sc:para xml:space="preserve">L'iceberg représente l'environnement cognitif dans lequel évolue un stagiaire. Sa partie immergée correspond à l'ensemble des ressources aujourd'hui accessibles grâce à l'intelligence artificielle : données, ouvrages, bases de connaissances, modèles numériques, réseaux et outils de calcul. Ces ressources sont vastes, puissantes, mais en grande partie invisibles. Elles ne sont utiles que si l'on sait y accéder et les mobiliser de manière pertinente.</sc:para>
+										<sc:para xml:space="preserve">À la surface, la zone de turbulence – matérialisée par les vagues – illustre la difficulté du dialogue avec l'IA. La « rédaction du (des) prompt(s) » constitue une compétence à part entière : formuler une question claire, contextualisée et exploitable demande réflexion, précision et esprit critique, estimée à 80 % du travail. Cette interface entre le stagiaire et les ressources constitue un passage obligé, parfois instable, mais essentiel.</sc:para>
+										<sc:para xml:space="preserve">Au-dessus de l'eau se trouve la pyramide de la taxonomie de Bloom, qui structure la progression cognitive de l'apprenant. À la base, « mémoriser » et « comprendre » restent nécessaires, mais l'intelligence artificielle permet aujourd'hui d'externaliser en partie ces niveaux. L'effort peut alors se concentrer davantage sur les niveaux supérieurs : appliquer, analyser, évaluer et surtout créer. L'étudiant mobilise les ressources disponibles pour traiter le problème, affiner sa compréhension, comparer des solutions et construire une réponse pertinente.</sc:para>
+										<sc:para xml:space="preserve">Au sommet, le chercheur qui plante son fanion symbolise la réussite : le problème est résolu, et surtout des compétences ont été acquises. Celles-ci apparaissent dans le ciel sous forme de nuages de tailles variables. Certains sont bien développés, ont débouchées sur une innovation tangible traduisant une maîtrise solide ; d'autres restent fragiles ou incomplets, rappelant que l'apprentissage est progressif et perfectible. Des nuages de pluie peuvent également illustrer des compétences non encore acquises, en difficulté, voire des échecs.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">L'emploi de l'IA est recommandé pour :</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">les activités de veille et de recherche ciblée ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Votre auto-formation et l' approfondissement de vos connaissances ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">la réalisation de synthèses ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">la production de documents de communication (posters, flyers, vidéos ...) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">l'optimisation de routines informatiques ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">l'optimisation ou l'itération de processus ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">l'aide à la rédaction ou à l'illustration de documents.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">TOUT EMPLOI DE L'IA DOIT IMPÉRATIVEMENT ÊTRE :</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">en accord avec la charte de l’École de l'Air et de l'Espace ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">clairement justifié, identifié et documenté dans les rapports soumis à un jury.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+				<sp:meth>
+					<op:pbTi>
+						<sp:title>Emploi des outils cognitifs recommandés pour le projet &quot;Khépri&quot;</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+								<sc:table role="">
+									<sc:column width="17"/>
+									<sc:column width="57"/>
+									<sc:column width="55"/>
+									<sc:column width="63"/>
+									<sc:column width="54"/>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">Etape (Bloom)</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">attendus étudiant</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">outils cognitifs appropriés</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">apport de l'IA</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Évaluation</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[7] Compétences</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Capacités et modalités de mise en production de la solution proposée ou de la poursuite des travaux</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Déclaration de compétences formulées par l'étudiant</sc:para>
+										</sc:cell>
+										<sc:cell/>
+										<sc:cell>
+											<sc:para xml:space="preserve">« SAVOIR ÊTRE » </sc:para>
+											<sc:para xml:space="preserve">Questions orales relatives à :</sc:para>
+											<sc:para xml:space="preserve">originalité réelle,</sc:para>
+											<sc:para xml:space="preserve">appropriation personnelle</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[6] CREER</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Réorganiser, produire, innover, inventer, concevoir, élaborer un processus complexe, concevoir une solution originale</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Management du temps (Gantt)</sc:para>
+											<sc:para xml:space="preserve">Management des phases d'un projets</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">co-création, génération d'options, itérations, optimisations</sc:para>
+											<sc:para xml:space="preserve">Aide à la compilation des divers éléments du rapport et à la présentation de soutenance</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">« SAVOIR INNOVER »</sc:para>
+											<sc:para xml:space="preserve">- Démonstration lors de la soutenance finale</sc:para>
+											<sc:para xml:space="preserve">- Capacité de présenter une synthèse globale à partir d'un poster, d'animer un stand de présentation MDAO</sc:para>
+											<sc:para xml:space="preserve">- Distanciation critique vis-à-vis de l'IA</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[5] EVALUER</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Juger de la valeur et de la pertinence des informations, idées et travaux, critiquer, justifier, choisir et valider</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Contrôle qualité</sc:para>
+											<sc:para xml:space="preserve">PMI-APC</sc:para>
+											<sc:para xml:space="preserve">Matrice d'Eisenhower</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Confronter plusieurs solutions et détecter les &quot;biais&quot; introduits par l'IA.</sc:para>
+											<sc:para xml:space="preserve">Travailler la qualité du raisonnement et argumenter les choix</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">« SAVOIR RENDRE-COMPTE »</sc:para>
+											<sc:para xml:space="preserve">- Documents rédigés &gt; s'assurer de la bonne compréhension par l'élève et de la place de sa propre rédaction</sc:para>
+											<sc:para xml:space="preserve">- Capacité à transmettre une synthèse / expliquer à un non spécialiste / expliquer des choix</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[4] ANALYSER</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Examiner les faits, interpréter les données, décomposer, comparer, structurer, relier les systèmes</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Brainstorming / Carte mentale</sc:para>
+											<sc:para xml:space="preserve">Manager une mission : « les 7M »</sc:para>
+											<sc:para xml:space="preserve">Morning Briefing</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Aide à la structuration, cohérence du modèle</sc:para>
+											<sc:para xml:space="preserve">capacité à corriger l'IA</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">« SAVOIR FAIRE SOIS-MEME » </sc:para>
+											<sc:para xml:space="preserve">- Compréhension réelle de l'étudiant (pas de recopie IA)</sc:para>
+											<sc:para xml:space="preserve">- Capacité à reformuler, - Non dépendance à l'IA</sc:para>
+											<sc:para xml:space="preserve">- Esprit critique</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[3] APPLIQUER</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Employer des règles, méthodes, concepts adaptés à un contexte concret, résolution, réitération</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">outils de simulation</sc:para>
+											<sc:para xml:space="preserve">Travaux pratiques autonomes</sc:para>
+											<sc:para xml:space="preserve">To-do List</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Assistance technique</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">« SAVOIR EXÉCUTER » </sc:para>
+											<sc:para xml:space="preserve">- Autonomie d'exécution</sc:para>
+											<sc:para xml:space="preserve">- Adaptation au contexte réel</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[2] COMPRENDRE</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Attribuer un sens au savoir, organiser ses réflexions, expliciter un raisonnement un concept. Formation autodidacte</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Pratique &gt; Travaux tutorés</sc:para>
+											<sc:para xml:space="preserve">Web &gt; Tutoriels</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Management des connaissances, sélection, compression, questionnement &gt; rédaction de fiches de synthèses (grains de contenu)</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">« SAVOIR APPRENDRE » </sc:para>
+											<sc:para xml:space="preserve">Analyser / évaluer la « maîtrise des prompts » (exigence de traçabilité)</sc:para>
+											<sc:para xml:space="preserve">Clarté des explications, capacité d'apprentissage autodidacte ou entre pairs</sc:para>
+											<sc:para xml:space="preserve">Traçabilité des échanges</sc:para>
+										</sc:cell>
+									</sc:row>
+									<sc:row>
+										<sc:cell>
+											<sc:para xml:space="preserve">[1] MÉMORISER</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Reconnaître et se rappeler des savoirs acquis. Retrouver une information adaptée à la problématique</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">Emploi des systèmes d'information dédié (drive)</sc:para>
+											<sc:para xml:space="preserve">Web &gt; accès aux connaissances et ressources dormantes, stockage des informations, veiller, classer, retrouver</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">recherche augmentée</sc:para>
+										</sc:cell>
+										<sc:cell>
+											<sc:para xml:space="preserve">« PRE-ACQUIS » </sc:para>
+											<sc:para xml:space="preserve">Évaluation de la pertinence des sources, concision des réponses, organisation des connaissances ...</sc:para>
+										</sc:cell>
+									</sc:row>
+								</sc:table>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:meth>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

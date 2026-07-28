@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>PHRASÉOLOGIE MILITAIRE</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para xml:space="preserve">Rédaction #PDM#</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Objectifs et principes généraux de la phraséologie militaire</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">La communication militaire (radio ou téléphone) repose sur des codes simples, courts et sans ambiguïté. L'objectif est d'éviter toute confusion, surtout en situation de stress ou de bruit.</sc:para>
+								<sc:para xml:space="preserve">Cette communication est également applicable dans les mails, voire-même recommandée car elle est plus précise que les &quot;smiley&quot; et plus professionnelle. Elle repose sur les principes généraux suivants :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Brièveté : aller à l'essentiel</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Clarté : vocabulaire standardisé</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Univocité : un mot = un sens</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Discipline : pas de bavardage</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Impassibilité : pas d'état d'âme</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">&#x1f6ab; ERREURS À ÉVITER</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Langage courant (“ok”, “ouais”)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Messages trop longs</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Ambiguïtés (“peut-être”, “je pense”)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">à l'oral on évite “oui” / “non” car ils peuvent être mal entendus (parasites radio).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">ACCUSÉ DE RÉCEPTION</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Quand un manager demande à ses subordonnés de lui confirmer qu'ils ont bien reçu mon message et qu'ils sont en mesure d'en réaliser leur part, il indique généralement &quot;Faites l'aperçu&quot;. Les réponses courtes attendues sont le suivantes :</sc:para>
+										<sc:table role="">
+											<sc:caption xml:space="preserve">Réponse à Faites l'aperçu&quot;</sc:caption>
+											<sc:column width="33"/>
+											<sc:column width="33"/>
+											<sc:column width="33"/>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">TERME CONSACRE</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">SIGNIFICATION</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">REMARQUE</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Aperçu</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">j'ai vu que vous m'avez envoyé un message ou des consignes. J'approfondirai plus tard</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Message vu (plutôt pour un message écrit ou visuel) mais pas encore totalement exploité</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Reçu</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">j'ai capté le message</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Message bien reçu ou entendu (mais pas forcément compris en détail ni exécuté)</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Bien reçu</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">j'ai capté ce message important et m'y atèle</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Variante plus appuyée, montre l'importance accordée</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Noté</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">j'ai capté et compris ce message de routine, je n'ai pas de soucis d'exécution</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Information enregistrée, prise en compte</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Compris</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">J'ai reçu,  analysé et compris le message</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Information ou consigne prise en compte et sera exécutée sans demande complémentaire</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Affirmatif</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Oui clair, sans ambiguïté</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Négatif</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Non clair, sans ambiguité</sc:para>
+												</sc:cell>
+												<sc:cell/>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">NON-EXÉCUTION / REFUS / PROBLÈME</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Toute non-exécution doit être justifiée brièvement si possible</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Impossible → ordre irréalisable dans les conditions actuelles</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Ne peux exécuter → incapacité à appliquer l'ordre</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Dans l'impossibilité → variante plus formelle</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Refuse → refus explicite (rare, cadre très spécifique / règles d'engagement)</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Demande confirmation → doute sur l'ordre reçu</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Demande correction → incohérence détectée</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">En attente → action suspendue</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Stop → arrêt immédiat (urgence)</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">GESTION DE LA TRANSMISSION</sc:inlineStyle></sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Terminé → fin de transmission, attente réponse</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Terminé terminé → fin de communication</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Parlez → invite à émettre</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Répétez → demande de répétition</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Je répète → je reformule</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Attendez → suspension temporaire</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Correction → annule et remplace info précédente</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

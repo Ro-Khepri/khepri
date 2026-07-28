@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le Management d'une Mission (Les 7 M)</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le management global d'un PROJET, aussi bien dans sa globalité que pour un de ses sous-systèmes ou d'une problématique particulière, nécessite l'emploi d'une vision globale appropriée.</sc:para>
+								<sc:para xml:space="preserve">Aussi, vous devez considérer votre participation au &quot; projet Khépri&quot;  comme la l'exécution d'une &quot;MISSION&quot; qui vous a été confiée, au sein d'un dispositif plus large dont vous ne maîtrisez pas tous les tenants, aboutissants et conséquences.</sc:para>
+								<sc:para xml:space="preserve">Pour tous les étudiants appelés à contribuer  au projet &quot;Khépri&quot;, il est demandé d'employer la « méthode des 7M » résumée par la devise suivante :</sc:para>
+								<sc:para xml:space="preserve">--</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">« Pour [M]ANAGER efficacement une [M]ISSION, il convient de [M]EDITER ses différentes phases et aspects, en employant des [M]ETHODES, en tenant compte des [M]OYENS à notre disposition et de l'avis de nos [M]AITRES et [M]ENTORS »</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/XMIND-les_7_M.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Si l'on explicite chacun de ces [M] on peut les regrouper en 4 grands thèmes inhérents à tout[M]ANAGEMENT et à toute [M]ISSION :</sc:para>
+										<sc:para xml:space="preserve">01 &gt; [M]EDITER &gt; c'est-à-dire analyser, hiérarchiser, repartir et centraliser les données et informations que l'on possède ;</sc:para>
+										<sc:para xml:space="preserve">02 &gt;  Employer des [M]ETHODES &gt; elles peuvent-être technologique, scientifique, informatiques ou provenir d'outils cognitifs appropriés ;</sc:para>
+										<sc:para xml:space="preserve">03 &gt; Employer les [M]OYENS à notre disposition &gt; humains, technique et financier ;</sc:para>
+										<sc:para xml:space="preserve">04 &gt; Faire appel aux [M]ENTORS et [M]AITRES &gt;  Ce sont des &quot;ressources humaines&quot; à associer à nos travaux et à consulter pour en obtenir des conseils, des orientations, et finalement l'aval et la validation de certaines étapes.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On notera que cette méthode est d'également adaptée aux management militaire, dans lequel les cadres officiers sont amenés à commander et à Manager du personnel, pour des projets réels concernant son unité, et/ou en collaboration industrielle ou interarmées.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

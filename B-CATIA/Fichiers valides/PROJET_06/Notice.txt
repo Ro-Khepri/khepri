@@ -1,0 +1,15 @@
+Notice d'utilisation de la maquette numérique KHEPRI
+
+Version utilisée: CATIA V5R19 (ici fournie par M. CHOUVION)
+
+Accès maquette numérique:
+-> Commandes de vol
+    -> kinematics
+        -> fichier CATProduct "Standard Libelle H201B - KHEPRI"
+
+Note importante: Afin de ne pas créer de problème lors de l'ouverture de la maquette:
+1) Téléchargez le dossier Catia sur votre ordinateur.
+2) Ne déplacez ni ne renommez les fichiers dossiers etc, ceci afin d'assurer que le chemin d'accès propre au fichier assemblage ne soit pas altéré.
+3) En cas de doute ou de modification à effectuer, conservez le dossier racine ici présent sur le drive, clé usb, disque dur de votre ordinateur afin de toujours pouvoir faire marche arrière.
+
+SLT JERKE Valentin

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Cahier des charges du projet global Khépri</sp:title>
+			<sp:sTitle>Grain 0.2.5</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>Objectifs de ce grain de contenu</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Principe fondamental</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Le projet de planeur photovoltaïque « Khépri » consiste à étudier, dimensionner, maquetter et intégrer sur les ailes d'un petit planeur monoplace existant une motorisation électrique d'appoint amovible, alimentée par des batteries, elles-mêmes rechargées par des cellules photovoltaïques, afin d'en augmenter la « finesse » dans les phases critiques du vol.</sc:inlineStyle></sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Système de Systèmes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/B-Ressources/KHEPRI-Synthese_projet_global.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Khépri n'est pas un Nième projet visant à transformer un planeur en avion, mais une approche innovante visant à  intégrer de multiples sous-systèmes dans un planeur composite existant (modèle H201B) pour en augmenter la finesse et de facto sa sécurité dans le domaine du &quot;vol à voile&quot;. Ce <sc:inlineStyle role="emp">SYSTÈME de SYSTÈMES</sc:inlineStyle> et donc composé des T<sc:inlineStyle role="emp">ROIS SOUS-SYSTÈMES</sc:inlineStyle> suivants :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">SOUS-SYSTÈME A &gt;</sc:inlineStyle>Utilisation de motorisation électrique légère, silencieuse, amovible et reconfigurable, éliminant le recours à la propulsion thermique polluante, pour l'augmentation de la finesse.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">SOUS-SYSTÈME B &gt;</sc:inlineStyle> Intégration d'un revêtement photovoltaïque sur la cellule, permettant une autonomie énergétique partielle qui alimente les moteurs électriques, les instruments, la recharge des batteries  en vol, et valorise l'énergie solaire comme source propre et renouvelable pour l'aviation récréative.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">SOUS-SYSTÈME C &gt;</sc:inlineStyle> Remplacement des ballasts d'eau par des batteries rechargeables, sans modifier l'aérodynamique, le centrage et le bilan de masse,  une logique d'autonomie énergétique.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Chacun de ces sous-systèmes est appelé à être amélioré de manière autonome en fonction des évolutions technologiques, en veillant à ce que le  système global demeure toujours opérationnel.</sc:para>
+								<sc:para xml:space="preserve">L'ensemble de la démarche s'inscrit dans un objectif pédagogique et une volonté permanente de  &quot;SIMPLICITÉ&quot;,   guidé par le principe KISS (&quot;Keep It Simple and Smart&quot;), qui vise à éviter les complexités inutiles tout en intégrant des technologies de pointe là où elles apportent une véritable valeur ajoutée.</sc:para>
+								<sc:para xml:space="preserve">Le critère majeur de réussite du projet global consistera à mesurer et à  améliorer la finesse du planeur en fonctionnement réel sachant que la finesse maximum théorique actuelle de cet aéronef est  donnée pour 36 à une vitesse à 92 km/h. Le seul objectif initialement  fixé consiste à  doubler cette finesse par la  mise en route des moteurs. Toute performance supérieure sera considérée comme une évolution réussie.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Contraintes principales</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Les contraintes fondamentales et immuables qui sont imposées à ce projet sont les suivantes :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">seules les ailes peuvent être modifiées ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">la masse totale de l'ensemble des modifications ne doit pas dépasser 20 kg par aile, correspondant au poids des water-ballast enlevés ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Toutes les &quot;données du constructeur&quot; et/ou les &quot;données de certification&quot; ne doivent pas être dégradées ou provoquées des contraintes de plus de  5%.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Sources d'inspiration</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:res sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/B-Ressources/Realisation_inspirantes-01.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Des sources d'inspiration issues de projets de référence comme Euroglider, Sol-Ex, SunExel, Thermik2Go, Kyrios, montrent la faisabilité de chacun des  différents sous-systèmes composant le  projet global. Cependant à ce jour aucun appareil n'a volé en combinant à la fois les trois sous systèmes du projet Khépri.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Études pluridisciplinaires (MDAO)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le projet khépri présente un aspect multidisciplinaire concernant de très nombreux aspects abordés ou enseignés au sein de l'EAE tels que le décrit l'illustration ci-dessous.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/B-Ressources/MDAO-01.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">S'agissant plus particulièrement des aspects scientifiques et techniques, force est de constater que les enseignements et les moyens de simulation et d'essais de l'EAE permettent à ces élèves  d'appréhender l'ensemble  des processus allant de la conception à la certification des aéronefs légers.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/B-Ressources/Processus-conception_certification-01.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Évolution progressive du cahier des charges</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Prenant en considération le principe fondamental et les contraintes principales évoquées ci-avant, les études pluridisciplinaires effectuées depuis septembre 2021 ont peu à peu permis de quantifier des objectifs atteignables et d'en affiner le cahier des charges.C'est ainsi que  pour l'année scolaire 2025-2006, le cahier des charges général se résume à étudier, valider et maquetter les critères chiffrés indiqués sur la diapositive ci-après.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/B-MANUEL_KHEPRI/00-ACCUEIL_INTRODUCTION/B-Ressources/Cahier_des_charges-2026.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

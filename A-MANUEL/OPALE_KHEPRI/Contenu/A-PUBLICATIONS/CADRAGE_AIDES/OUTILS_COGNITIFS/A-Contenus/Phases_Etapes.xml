@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Les 8 phases ou étapes d'un projet</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Cas général de découpage d'un projet en phases successives</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">De manière générale un projet est décomposé en  8 phases (ou étapes) successives,  aussi importantes les unes que les autres, à savoir : la Conception, la formulation, l'analyse, la Décision, la mise en œuvre, la Transition à l'opérationnelle, le rapport (feed back) et finalement la post-évaluation.</sc:para>
+								<sc:para xml:space="preserve">A chacune de ces phases des actions doivent être effectuées, des outils cognitifs  utilisés et des validations progressivement obtenues.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le diagramme ci-dessous présente les 8 principales phases d'un projet global. Si se projet est un &quot;système de systèmes&quot;, chaque sous-système possède son propre diagramme de phase. Le rôle du manageur général du projet étant de veiller à un avancement synchrone de chaque sous-système.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/Phases_projet-01.png">
+							<op:resInfoM/>
+						</sp:res>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Cas particulier du projet KHEPRI</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le principe général décrit ci-avant a fait l'objet de nombreux &quot;brainstorming&quot; et d'une représentation par carte mentale électronique &quot;XMIND&quot;.</sc:para>
+								<sc:para xml:space="preserve">Ceci permet d'en dégager les spécificités et de sélectionner les outils et méthodes les plus adaptées au domaine aéronautique et à une gestion pédagogique du projet.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/XMIND-Etapes_projet.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Mode d'emploi</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">La carte mentale ci-dessus est disponible dans le Drive Khépri afin que chaque équipe de projet puisse se l'approprier et la faire évoluer.</sc:para>
+								<sc:para xml:space="preserve">Il convient généralement d'étudier cette carte heuristique au début puis à la fin de la période du sous-projet en cours afin de bien définir les points de départ, acquis à considérer et objectifs à atteindre.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

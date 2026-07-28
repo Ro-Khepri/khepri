@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Module 1 : Aérodynamique, mécanique et dynamique du Vol</sp:title>
+		</op:ueM>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Division 1.1 : Fondamentaux</sp:title>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-1-Fondamentaux/01.01.01-Aero_bidimensionnelle.xml"/>
+				<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-1-Fondamentaux/01.01.02-Aero_tridimensionnelle.xml"/>
+				<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-1-Fondamentaux/01.01.03-Equations_du_vol.xml"/>
+				<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-1-Fondamentaux/01.01.04-Domaine_de_vol.xml"/>
+				<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-1-Fondamentaux/01.01.05-Dynamique_du_vol.xml"/>
+			</op:ueDiv>
+		</sp:div>
+		<sp:div>
+			<op:ueDiv>
+				<op:ueDivM>
+					<sp:title>Division 1.2 : Application au libelle H201B</sp:title>
+				</op:ueDivM>
+				<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-2-Application_Libelle_H201B/01.02.01-Aero_mecavol_H201B.xml"/>
+			</op:ueDiv>
+		</sp:div>
+	</op:ue>
+</sc:item>

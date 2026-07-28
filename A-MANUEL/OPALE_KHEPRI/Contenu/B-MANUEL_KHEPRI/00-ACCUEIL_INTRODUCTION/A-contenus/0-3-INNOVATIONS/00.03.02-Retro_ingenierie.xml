@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Rétro-ingénierie : emploi et réhabilitation d'une chaîne de calcul vintage</sp:title>
+			<sp:sTitle>Grain 0.3.2</sp:sTitle>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>Objectifs de ce grain de contenu</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

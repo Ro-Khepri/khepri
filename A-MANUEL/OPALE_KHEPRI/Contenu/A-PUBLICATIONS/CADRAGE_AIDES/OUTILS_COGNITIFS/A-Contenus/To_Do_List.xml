@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>To Do List et Morning Briefing</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Morning Briefing</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le Morning Briefing, également connu sous le nom de résumé matinal ou de synthèse quotidienne, est une activité qui permet de faire un résumé précis et concis dès le matin de tout ce qui a été réalisé, de ce qu'il faut réaliser ce jour par rapport à sa matrice d'Eisenhower. Il permet lorsqu'il est bien utilisé un grand gain de temps car il est souvent réalisé avec des phrases courtes et des tirets pour être le plus concis possible.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>To Do List</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Cette méthode est très souvent associée à la précédente car cela la rend beaucoup plus efficace. Elle permet après avoir réalisé son morning briefing et après avoir déterminer tout ce qui reste à faire comme activité on réalise une liste avec les tâches à effectuer en précisant les lesquelles sont les plus importantes et en essayant d'établir un horaire pour mieux manager son temps.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:int sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/Formulaire-To_Do_List.doc">
+							<op:instructionM/>
+						</sp:int>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

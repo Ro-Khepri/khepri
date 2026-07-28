@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>HST : Hygiène et sécurité du laboratoire</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>A TRIER</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">xx</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:basic>
+					<op:pbTi>
+						<sp:title>HYGIÈNE &amp; SÉCURITÉ</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">ACTIONS PRÉALABLES</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Vérification plan d'évacuation</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Vérification extincteurs et téléphone pour secours</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Dépoussiérage et ventilation indispensables</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Vérification et étalonnage préalable des appareils utilisés</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Rien ne se fait sans validation / accord du tuteur</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">EN PERMANENCE</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ La résine est un composant chimique dangereux</sc:para>
+										<sc:para xml:space="preserve">☐ Emplois et rangement des produits chimiques (white spirit, acétone ...)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Port des gants et lunettes obligatoires</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">APRÈS LES TRAVAUX</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Débrancher toutes les machines utilisées à votre départ du laboratoire (pompes à vide, étuve, compresseur ...)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">☐ Fermeture accès extérieurs</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:basic>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

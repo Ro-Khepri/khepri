@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>ENCAPSULAGE COMPOSITE</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title># 01 — Généralités</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Ce mémo décrit les différents matériaux et techniques d'encapsulages pouvant être envisagés afin d'implanter des cellules photovoltaïques sur l'extrados d'un planeur en fibre de verre et résine époxy (épaisseur max de 2 mm).</sc:para>
+								<sc:para xml:space="preserve">Des séances de &quot;travaux pratiques tutorés&quot; utilisant les techniques de 'resin infusion&quot; (PROCÉDÉ D ci-après) et de &quot;tissus pré-imprégnés&quot; (PROCÉDÉ E ci-après) sont organisées afin d'évaluer leur intérêt (procédures PMI et Qualité)</sc:para>
+								<sc:para xml:space="preserve">Au final tous ces procédés nécessitent d'être comparés dans un but exploratoire, afin de sélectionner un processus final applicable au projet &quot;Khépri&quot; (procédure ACP).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title># 02 — Les différents matériaux d'encapsulage</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Les matériaux d'encapsulation courants appartiennent aux 4 familles suivantes :</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">EVA (Ethylène-Vinyl Acetate) :</sc:para>
+										<sc:para xml:space="preserve">historiquement dominant pour modules rigides. Bonne adhésion et clarté ; nécessite lamination thermique (vide + calorifuge).</sc:para>
+										<sc:para xml:space="preserve">Inconvénient : vieillissement (jaunissement) et produits d'essaimage pendant la réticulation (selon formulations).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">POE (Polyolefin Elastomer) :</sc:para>
+										<sc:para xml:space="preserve">meilleure résistance à l'humidité/UV, moins de jaunissement, de plus en plus employé par l'industrie.</sc:para>
+										<sc:para xml:space="preserve">Moins adhésif par défaut → traitements de surface/silane.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Silicone (potting / encapsulant) :</sc:para>
+										<sc:para xml:space="preserve">excellente stabilité UV, flexible ; parfois utilisé pour cellules flexibles mais adhésion et coût sont des limites.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Époxy clair :</sc:para>
+										<sc:para xml:space="preserve">très adhérent et mécaniquement solide, mais risque de jaunissement sous UV et sensibilité au craquelage à long terme — attention si visée longévité &gt; quelques années.</sc:para>
+										<sc:para xml:space="preserve">Des époxys spéciaux « optical clear » existent ; usage possible pour prototype/TP mais moins courant en industrie PV classique. <sc:phrase role="url"><op:urlM><sp:url>https://www.sciencedirect.com/science/article/pii/S2405844023072560</sp:url><sp:title>Composite material with enhanced recyclability as encapsulant for photovoltaic modules</sp:title></op:urlM></sc:phrase></sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title># 03 — Les procédés utilisables : principes, avantages, contraintes</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">On distingue 6 différents principaux d'encapsulage utilisables pour l'aéronautique récréative :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">PROCÉDÉ A : La lamination par film ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">PROCÉDÉ B : Le Moulage au contact (hand-layup)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">PROCÉDÉ C : Le Moulage sous vide (Vacuum bagging)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">PROCÉDÉ D : L'infusion de résine (Resin infusion / VARTM = Vacuum Assisted Resin Transfer Molding)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">PROCÉDÉ E : L'Emploi de tissus pré-imprégnés en autoclave (prepreg)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">PROCÉDÉ F : La lamination à chaud pour films flexibles (Roll-to-roll )</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">A — Lamination par film (procédé industriel de fabrication des PV)</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">recommandé pour atteindre &lt;2 mm, et pour sa durabilité</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Principe : poser un film encapsulant (EVA ou POE) sur chaque face de la cellule, sandwich cellule + film + verre / backsheet, puis effectuer une lamination thermique sous vide (chambre laminatrice) pour faire fondre et fusionner (cross-linker) les films EVA/POE.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Avantages : couche mince et contrôlée (≤ 0,5–1,5 mm), excellente clarté optique, procédé industriel éprouvé, bonne étanchéité si joint cadre.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Contraintes : nécessite presse/laminateur à vide et chaleur (typ. 150–160 °C pour EVA), outillage et maîtrise des cycles pour éviter bulles et délaminage. EVA peut libérer acides / sous-produits de réticulation → compatibilité avec électrodes et métallisation. POE demande conditions différentes et peut nécessiter traitements.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Applications pratiques pour TP : possible d'acheter **films préfabriqués** et utiliser une petite laminatrice de laboratoire (ou une presse chauffante + pompe à vide). Pour aile d'un planeur, la solution film (EVA/POE) donne une couche mince et durable.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Application pour KHEPRI</sc:para>
+										<sc:para xml:space="preserve">processus non encore employé &gt;&gt; à étudier / veiller</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">B — Moulage au contact / hand-layup</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Il s'agit d'appliquer la résine au pinceau ou en spray</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Principe : poser tissu de verre, déposer résine (époxy, polyester) au pinceau/rouleau.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Avantages : équipement minimal, pédagogique (compréhension du composite).</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Contraintes : porosité, excès de résine (augmentation masse/épaisseur), mauvaise régularité optique (pour cellules, surface non parfaitement lisse), difficile d'obtenir &lt;2 mm tout en conservant renforts. Peu recommandé si l'objectif est d'obtenir un revêtement optiquement clair et fin.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Application pour KHEPRI &gt;&gt; Processus déjà testé par des élèves  &gt;&gt; résultats non satisfaisants &gt; à éviter</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">C — Moulage sous vide (Vacuum bagging)</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">C'est une amélioration du hand-layup</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Principe : Comme hand-layup mais mise sous sac étanche, aspiration pour compaction et extraction d'air/excès résine.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Avantages : meilleure compaction, moins de porosité, possible obtenir couches plus minces qu'au hand-layup. Équipement accessible (pompe à vide, film, peel-ply).</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Contraintes : on reste avec une résine appliquée manuellement → contrôle de l'épaisseur limité. Pour obtenir &lt;2 mm il faut utiliser tissus très fins (voile non tissé 30–50 g/m²) et peu de résine. Attention au contact direct résine/cellule (isolation électrique).</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Application pour KHEPRI &gt;&gt; Processus déjà testé par des élèves &gt;&gt; résultats peu satisfaisants &gt; à améliorer (mauvaise imprégnation, bulles &gt;rechercher meilleure diffusion / vide plus important)</sc:para>
+										<sc:para xml:space="preserve">Choix entre moulage directement sur l'extrados ou moulage préalable entre deux plaques de verre puis transfert par collage  sur l'extrados.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">D — Resin infusion / VARTM (Vacuum Assisted Resin Transfer Molding)</sc:inlineStyle></sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Principe : Les renforts secs (voile de verre très fin, éventuellement complété d'un tissu léger) sont disposés sur le support.</sc:para>
+												<sc:para xml:space="preserve">L'ensemble est fermé sous un sac à vide. Une résine époxy à très faible viscosité est ensuite aspirée sous vide à travers les renforts, assurant leur imprégnation complète avant polymérisation.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Spécificités pour l'encapsulage de cellules photovoltaïques</sc:para>
+												<sc:itemizedList>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Utilisation impérative d'un voile de verre très fin (≈ 30–50 g/m²) pour limiter l'épaisseur finale</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Protection électrique de la cellule :</sc:para>
+														<sc:para xml:space="preserve">soit par une feuille PET mince (25–50 µm), soit par un film isolant compatible infusion</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Contrôle strict :</sc:para>
+												<sc:para xml:space="preserve">du front de résine (éviter bulles / zones sèches),</sc:para>
+												<sc:para xml:space="preserve">de la quantité totale de résine (objectif masse minimale)</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Avantages : Excellent contrôle du ratio fibres/résine - Très bonne reproductibilité - Procédé accessible en laboratoire sans autoclave ou étuve -Très formateur pour comprendre les composites aéronautiques modernes</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Contraintes :</sc:para>
+												<sc:para xml:space="preserve">Résine très fluide requise (viscosité &lt; 300 mPa·s typ.)</sc:para>
+												<sc:para xml:space="preserve">Risque d'exothermie locale (cellules sensibles à la température)</sc:para>
+												<sc:para xml:space="preserve">Mise en œuvre plus exigeante que le simple vacuum bagging</sc:para>
+												<sc:para xml:space="preserve">Prévoir équipement d'infusion (raccords, lignes d'alimentation), maîtrise du « flow » pour éviter zones mal imprégnées. Pour cellules : nécessité d'un voile très fin et d'une couche de protection diélectrique/isolante pour éviter contact électrique direct avec la résine (ou utiliser une fine feuille PET/basé sur film).</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+										<sc:para xml:space="preserve">Application pour KHEPRI &gt;&gt;&gt; processus non encore employé &gt;&gt; à étudier / veiller / à réaliser</sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">valider la faisabilité à température ambiante (20 °C),</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">mesurer l'épaisseur obtenue,</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">identifier les défauts typiques (bulles, imprégnation incomplète, défauts optiques).</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Technique fortement conseillée avec qualité &amp; maîtrise de la résine</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">E — Emploi de tissus pré-imprégnés (prepreg) / Autoclave ou étuvage / chauffage sous vide</sc:inlineStyle></sc:para>
+										<sc:itemizedList>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Principe :</sc:para>
+												<sc:para xml:space="preserve">Les tissus pré-imprégnés sont des renforts déjà imprégnés d'une résine époxy partiellement réticulée.</sc:para>
+												<sc:para xml:space="preserve">Ils sont mis en forme, puis polymérisés sous vide à température élevée (≈120 °C), dans une étuve ou un four ventilé.</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Spécificité pour l'encapsulage PV</sc:para>
+												<sc:para xml:space="preserve">Très faible quantité de résine → épaisseur maîtrisée</sc:para>
+												<sc:para xml:space="preserve">Excellente qualité de surface</sc:para>
+												<sc:para xml:space="preserve">Compatibilité thermique à vérifier impérativement :</sc:para>
+												<sc:para xml:space="preserve">température max admissible des cellules,</sc:para>
+												<sc:para xml:space="preserve">dilatation différentielle (verre / silicium / composite)</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Avantages :</sc:para>
+												<sc:para xml:space="preserve">Procédé très proche des standards aéronautiques professionnels</sc:para>
+												<sc:para xml:space="preserve">Excellente répétabilité</sc:para>
+												<sc:para xml:space="preserve">Épaisseur et masse très bien contrôlées</sc:para>
+												<sc:para xml:space="preserve">Très bon support pédagogique pour parler de certification aéronautique</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Contraintes :</sc:para>
+												<sc:para xml:space="preserve">Mise en œuvre plus rigoureuse :</sc:para>
+												<sc:para xml:space="preserve">temps hors congélateur limité,</sc:para>
+												<sc:para xml:space="preserve">cycles thermiques stricts</sc:para>
+												<sc:para xml:space="preserve">Risque thermique pour les cellules photovoltaïques</sc:para>
+												<sc:para xml:space="preserve">Nécessite une discipline atelier élevée</sc:para>
+											</sc:listItem>
+											<sc:listItem>
+												<sc:para xml:space="preserve">Application pour KHEPRI &gt;&gt; processus non encore employé &gt;&gt; à étudier / veiller / à réaliser</sc:para>
+												<sc:para xml:space="preserve">PROCÉDÉ À ÉVALUER AVEC PRUDENCE</sc:para>
+												<sc:para xml:space="preserve">vérifier graduellement la tenue des cellules, des structures composites et des outillages à partir de 70° jusqu'à 120 °C max,</sc:para>
+												<sc:para xml:space="preserve">surveiller l'arrêt du chauffage et le retour à température ambiante</sc:para>
+												<sc:para xml:space="preserve">comparer l'état de surface et l'épaisseur finale avec le procédé D,</sc:para>
+												<sc:para xml:space="preserve">analyser l'intérêt réel pour une application planeur et sa mise en oeuvre sur aile réelle existante.</sc:para>
+											</sc:listItem>
+										</sc:itemizedList>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">F — Roll-to-roll / lamination à chaud pour films flexibles (membranes, silicons)</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Utilisé pour modules flexibles (substrats PET) : utile si tu veux un panneau très fin et flexible. Mais durabilité moindre vs verre/lamina.</sc:para>
+										<sc:para xml:space="preserve">Application pour KHEPRI</sc:para>
+										<sc:para xml:space="preserve">processus non encore employé &gt;&gt; à étudier / veiller</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Liens utiles, références documentaires</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Ci-dessous les principaux liens ayant servi à la rédaction de ce mémo.</sc:para>
+								<sc:para xml:space="preserve">Ne pas hésiter à proposer d'autres liens trouvés au fur et à mesure de votre &quot;veille&quot; et/ou à télécharger des informations ou des ouvrages appropriées.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:table role="">
+											<sc:caption xml:space="preserve">Liens internet</sc:caption>
+											<sc:column width="6"/>
+											<sc:column width="58"/>
+											<sc:column width="136"/>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF01</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Preprint - Michael Kempe - Publications - NREL&quot;</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://docs.nrel.gov/docs/fy11osti/50840.pdf?</sp:url></op:urlM>https://docs.nrel.gov/docs/fy11osti/50840.pdf?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF02</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Mechanical properties of EVA-based encapsulants</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://www.pv-tech.org/wp-content/uploads/legacy-publication-pdfs/ae60c00fce-mechanical-properties-of-evabased-encapsulants.pdf?</sp:url></op:urlM>https://www.pv-tech.org/wp-content/uploads/legacy-publication-pdfs/ae60c00fce-mechanical-properties-of-evabased-encapsulants.pdf?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF03</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">POE Encapsulant in Solar Panels – Properties &amp; Advantages</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://www.renewsysworld.com/post/poe-encapsulant-in-solar-panels-properties-advantages?</sp:url></op:urlM>https://www.renewsysworld.com/post/poe-encapsulant-in-solar-panels-properties-advantages?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF04</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Novel solar module encapsulant based on glass-fiber ...</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://www.pv-magazine.com/2023/10/10/novel-solar-module-encapsulant-based-on-glass-fiber-epoxy-resin/?</sp:url></op:urlM>https://www.pv-magazine.com/2023/10/10/novel-solar-module-encapsulant-based-on-glass-fiber-epoxy-resin/?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF05</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Resin Infusion vs. Vacuum Bagging: Which Method Fits ...</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://smartechonline.com/resources/vacuum-bagging-vs-resin-infusion/?</sp:url></op:urlM>https://smartechonline.com/resources/vacuum-bagging-vs-resin-infusion/?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF06</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Resin Infusion</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://acpcomposites.com/category/vacuum-bagging/resin-infusion?</sp:url></op:urlM>https://acpcomposites.com/category/vacuum-bagging/resin-infusion?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF07</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Composite material with enhanced recyclability as ..</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://www.sciencedirect.com/science/article/pii/S2405844023072560?</sp:url></op:urlM>https://www.sciencedirect.com/science/article/pii/S2405844023072560?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">REF08</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">Properties and degradation behaviour of polyolefin ...</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve"><sc:phrase role="url"><op:urlM><sp:url>https://onlinelibrary.wiley.com/doi/full/10.1002/pip.3323?</sp:url></op:urlM>https://onlinelibrary.wiley.com/doi/full/10.1002/pip.3323?</sc:phrase></sc:para>
+												</sc:cell>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">REF01 &gt; NREL / Kempe — tests et comparaisons d'encapsulants (EVA, silicone) — bonnes références techniques. ([docs.nrel.gov])</sc:para>
+										<sc:para xml:space="preserve">REF02 &gt; Fiches techniques films encapsulants (fournisseurs EVA/POE) — rechercher «EVA encapsulant datasheet» ou «POE encapsulant datasheet» pour cycles de lamination, températures et propriétés mécaniques. (voir synthèses ci-dessus). ([PV Tech][2])</sc:para>
+										<sc:para xml:space="preserve">REF07 &gt; Paper (resin infusion pour encapsulation GFRP) — «Composite material with enhanced recyclability...» (résumé et méthode infusion d'intérêt pour prototype). ([ScienceDirect])</sc:para>
+										<sc:para xml:space="preserve">REF04 &gt; PV-Magazine — «Novel solar module encapsulant based on glass-fiber epoxy resin» (cas d'usage d'époxy transparents et contraintes recyclabilité). ([pv magazine International])</sc:para>
+										<sc:para xml:space="preserve">REF03 &gt; RenewSys (POE explainer) — avantages du **POE** comme encapsulant moderne. ([renewsysworld][3])</sc:para>
+										<sc:para xml:space="preserve">REF08 &gt; Review sur propriétés &amp; dégradation des encapsulants (Polyolefin vs EVA) — utile pour le module durabilité. ([Wiley Online Library])</sc:para>
+										<sc:para xml:space="preserve">REF06 &gt;  Introduction au **resin infusion / VARTM** (guide procédural) — très utile pour TP. ([ACP Composites])</sc:para>
+										<sc:para xml:space="preserve">REF05 &gt; Comparatif Vacuum Bagging vs Resin Infusion (tutoriel expliqué). ([Smartech Online])</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Tutoriels :</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">https://www.youtube.com/watch?v=Lr-mzJmhHv0</sc:para>
+										<sc:para xml:space="preserve">https://www.youtube.com/watch?v=F1h0hRffH7</sc:para>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Fabriquer soi-même un panneau solaire photovoltaïque</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Partie 1 &gt; https://www.youtube.com/watch?v=s7bCz-ZFuvU</sc:para>
+										<sc:para xml:space="preserve">Partie 2 &gt; https://www.youtube.com/watch?v=yLkpXKi7MmU</sc:para>
+										<sc:para xml:space="preserve">Partie 3 &gt; https://www.youtube.com/watch?v=9Au3VeQ41pE</sc:para>
+										<sc:para xml:space="preserve">Partie 4 &gt; https://www.youtube.com/watch?v=Km7jicS745c</sc:para>
+										<sc:para xml:space="preserve">Partie 5 &gt; https://www.youtube.com/watch?v=jhF7nttCuwY</sc:para>
+										<sc:para xml:space="preserve">Partie 6 &gt; https://www.youtube.com/watch?v=0cJbyfXK8Hg</sc:para>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Mister VANLIFE &gt; montage série / parallèle :</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">https://www.youtube.com/watch?v=0AxYUgFcxl0</sc:para>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Mister VANLIFE &gt; convertisseurs et batteries :</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">https://www.youtube.com/watch?v=BKJT0YooK7o</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Fournisseurs / fiches technique et produits</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">https://www.westsystem.com/product-categories/vacuum-bagging-supplies/</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

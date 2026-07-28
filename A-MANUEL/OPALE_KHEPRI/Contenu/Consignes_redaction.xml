@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Consignes de rédaction</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Définition des grains de contenus (Opale ScenariChain</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Un grain de contenu est :</sc:para>
+								<sc:para xml:space="preserve">Un texte court (échelle du paragraphe ou d'un concept unique).</sc:para>
+								<sc:para xml:space="preserve">Autonome : il expose un seul concept, une idée ou un sujet précis lié à la matière.</sc:para>
+								<sc:para xml:space="preserve">Réutilisable : il peut être intégré dans plusieurs modules ou activités d'apprentissage.</sc:para>
+								<sc:para xml:space="preserve">Structuré : il peut contenir des blocs pédagogiques (définition, exemple, remarque, etc.).</sc:para>
+								<sc:para xml:space="preserve">Hiérarchique : c'est l'item de plus bas niveau dans ScenariChain /Opale, contenu dans des Divisions</sc:para>
+								<sc:para xml:space="preserve">(chapitres) ou Activités d'apprentissage</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Chaque "grain de contenus" doit respecter les principes suivants :</sc:para>
+								<sc:para xml:space="preserve">1. Granularité :</sc:para>
+								<sc:para xml:space="preserve">A chaque concept doit être associé un grain.</sc:para>
+								<sc:para xml:space="preserve">A chaque méthodologie est associée un grain.</sc:para>
+								<sc:para xml:space="preserve">Chaque annexe ou méthode ou description détaillé doit constituer un grain.</sc:para>
+								<sc:para xml:space="preserve">2. Hiérarchie :</sc:para>
+								<sc:para xml:space="preserve">Module = Thème large (ex : "Énergie et Propulsion").</sc:para>
+								<sc:para xml:space="preserve">Division = Sous-thème (ex : "Photovoltaïque").</sc:para>
+								<sc:para xml:space="preserve">Grain = Concept atomique (ex : "Technologies de cellules SunPower").</sc:para>
+								<sc:para xml:space="preserve">3. Réutilisabilité :</sc:para>
+								<sc:para xml:space="preserve">Les grains doivent pouvoir être réutilisés de manière indépendante dans d'autres projets aéronautiques.</sc:para>
+								<sc:para xml:space="preserve">4. Métadonnées :</sc:para>
+								<sc:para xml:space="preserve">Associer à chaque grain : Auteur, Source (document d'origine), Mots-clés (ex : #aérodynamique , #composites , #photovoltaïque ).</sc:para>
+								<sc:para xml:space="preserve">5. Liens transversaux :</sc:para>
+								<sc:para xml:space="preserve">Créer des liens entre grains connexes :</sc:para>
+								<sc:para xml:space="preserve">'exemple la citation d'un aéronef dans un grain doit permettre la liaison vers le grain présentant cet aéronef, s'il existe en annexe.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>alimentation du Manuel</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le présent manuel constitue la compilation des travaux successivement effectués par les élèves impliqués dans le projet Khépri.</sc:para>
+								<sc:para xml:space="preserve">Chaque élève ou groupe d'élève remet un rapport final des travaux qu'il a effectués. Compte tenu de l'aspect pluridisciplinaire du projet global, aucun élève ne peut aborder tous les thèmes associés au projet.</sc:para>
+								<sc:para xml:space="preserve">Chaque rapport ou document associé peut cependant être découpé en grains selon les concepts qu'il aborde.</sc:para>
+								<sc:para xml:space="preserve">Une fois identifiés, chaque grain de contenu est associé à un chapitre du manuel, qu'il vient alors compléter, préciser, voire remettre en cause.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Élaboration de la table des matières générale</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">La table des matières générale du manuel est élaborée par le porteur du projet Khépri. Cette nomenclature peut évoluer au fur et à mesure de l'avancement du projet.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title>PROMPT</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le document ci-joint, intitulé "MANUEL_KHEPRI" est la dernière version d'un travail collaboratif effectué à l'Ecole de l'Air et de l'espace de Salon-de-Provence, par des élèves suivant un cursus ingénieur ou licence des sciences aéronautiques.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

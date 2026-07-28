@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<trace><start t="24/03/26 08:43:28"/><l t="Error" d="24/03/26 08:43:52"><message type="Error" ts="1774338232417" appCtx="chain" thread="chain-executor-5" desc="[transform] Failure to transform
+[transform]  Src='H:\OPALE_KHEPRI\Generation\KHEPRI\0-PUBLICATIONS\01-CADRAGE_2026.publi\paper\01-CADRAGE_2026.odt'
+[transform]  Dst='H:\OPALE_KHEPRI\Generation\KHEPRI\0-PUBLICATIONS\01-CADRAGE_2026.publi\paper\01-CADRAGE_2026.odt'
+[transform]  params='transform=odtUpdate&amp;processings=keepEnumTitle:'
+[transform] java.lang.NullPointerException"/></l><l t="Warning" d="24/03/26 08:43:52"><message type="Warning" ts="1774338232417" appCtx="chain" thread="chain-executor-5" desc="Failure to transform
+ Src='H:\OPALE_KHEPRI\Generation\KHEPRI\0-PUBLICATIONS\01-CADRAGE_2026.publi\paper\01-CADRAGE_2026.odt'
+ Dst='H:\OPALE_KHEPRI\Generation\KHEPRI\0-PUBLICATIONS\01-CADRAGE_2026.publi\paper\01-CADRAGE_2026.odt'
+ params='transform=odtUpdate&amp;processings=keepEnumTitle:'"><message type="Error" ts="1774338232417" appCtx="chain" thread="chain-executor-5" desc="Echec à la transformation d'une ressource (OpenDocument)."><message type="Error" ts="1774338232414" appCtx="chain" thread="chain-executor-5" desc="OpenDocument editor not found."><message type="Exception" ts="1774338232414" appCtx="chain" thread="chain-executor-5"><details>java.lang.NullPointerException
+	at java.io.File.&lt;init&gt;(Unknown Source)
+	at eu.scenari.transform.od.TfmOpenDocument.getOoClassLoader(TfmOpenDocument.java:346)
+	at eu.scenari.transform.od.TfmOpenDocument.xGetSubTransformer(TfmOpenDocument.java:188)
+	at eu.scenari.transform.od.TfmOpenDocument.transform(TfmOpenDocument.java:137)
+	at com.scenari.m.co.ant.TransformTask.execute(TransformTask.java:97)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:390)
+	at org.apache.tools.ant.Target.performTasks(Target.java:411)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+	at com.scenari.m.ge.generator.ant.AntGenerator.xGenerate(AntGenerator.java:440)
+	at com.scenari.m.ge.generator.base.GeneratorStatic.generate(GeneratorStatic.java:647)
+	at eu.scenari.wsp.module.gen.ThreadGen.call(ThreadGen.java:170)
+	at eu.scenari.wsp.module.gen.ThreadGen.run(ThreadGen.java:157)
+	at eu.scenari.core.universe.Universe$1.run(Universe.java:406)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</details></message></message></message></message></l><end t="24/03/26 08:43:52"/></trace>

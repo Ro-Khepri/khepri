@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:odRoot xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:odRootM>
+			<sp:version>V2</sp:version>
+			<sp:date>21/03/2026</sp:date>
+			<sp:auth>
+				<op:sTxt>
+					<sc:para xml:space="preserve">Patrick PRODHOME (édition 12 Avril 2026)</sc:para>
+				</op:sTxt>
+			</sp:auth>
+			<sp:logo sc:refUri="/B-MANUEL_KHEPRI/80-COMMUNICATION/POSTERS-IA/B-Ressources/IA-KHEPRI_Savant-01.png"/>
+			<sp:settings/>
+		</op:odRootM>
+		<sp:ue sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/01-CADRE_COLLABORATIF.xml"/>
+	</op:odRoot>
+</sc:item>

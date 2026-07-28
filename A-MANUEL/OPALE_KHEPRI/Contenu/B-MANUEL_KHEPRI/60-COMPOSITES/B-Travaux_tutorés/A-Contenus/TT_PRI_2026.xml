@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>TRAVAIL TUTORÉ AÉRONAUTIQUE – ENCAPSULAGE DE CELLULES PHOTOVOLTAÏQUES SUR MATERIAUX COMPOSITES</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+						<sp:title># 01 — Généralités</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Ce mémo décrit les objectifs, matériaux et procédés d'encapsulage envisagés pour l'intégration de cellules photovoltaïques sur l'extrados d'un planeur en fibre de verre et résine époxy. L'objectif est d'obtenir un revêtement d'épaisseur inférieure à 2 mm, compatible avec les contraintes de masse, d'optique et de durabilité propres à l'aéronautique légère.</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Objectif pédagogique et technique :</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Réaliser et comparer l'encapsulage de deux séries d'un même nombre de cellules photovoltaïques en utilisant deux procédés composites différents, dans un contexte aéronautique léger. Aucun livrable écrit n'est exigé ; les observations alimenteront la soutenance finale.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Objectifs chiffrés - cahier des charges général</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Objectif demandé : panneau ≈ 2 m² produisant ≈ 200 W.</sc:para>
+										<sc:para xml:space="preserve">Hypothèse standard : irradiance 1000 W/m² (STC) et cellules cristallines ~20 % d'efficacité (valeur représentative ; adapter si tu choisis des cellules différentes).</sc:para>
+										<sc:para xml:space="preserve">Calcul rapide :</sc:para>
+										<sc:para xml:space="preserve">Surface active de cellule typique 156 mm × 156 mm = 0,156² = 0,024336 m².</sc:para>
+										<sc:para xml:space="preserve">Puissance par cellule ≈ 1000 × 0,024336 × 0,20 = 4,87 W.</sc:para>
+										<sc:para xml:space="preserve">Nombre de cellules nécessaires ≈ 200 / 4,87 ≈ 41 cellules → prévoir 44–48 pour pertes/format ou choisir une configuration standard (36 / 40 / 60 cellules selon le câblage).</sc:para>
+										<sc:para xml:space="preserve">Surface totale active des cellules ≈ 1,0 m² (donc sur 2 m² de panneau il restera espace pour cadre, interconnexions, marges, renforts).</sc:para>
+										<sc:para xml:space="preserve">(Calculs détaillés fournis dans la fiche pour le TP). — Exécution numérique vérifiée.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title># 02 — Procédés étudiés lors des Travaux Tutorés</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Deux procédés seront mis en œuvre en parallèle lors du TT afin d'en comparer les avantages et limites dans une logique de recherche et d'innovation.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">PROCÉDÉ D — Infusion de résine sous vide (VARTM)</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Les renforts secs sont disposés sur le support, puis imprégnés par aspiration sous vide d'une résine époxy à très faible viscosité. Ce procédé permet un contrôle précis du ratio fibres/résine et une excellente reproductibilité. Il est particulièrement adapté aux structures aéronautiques légères lorsqu'un autoclave n'est pas disponible.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">PROCÉDÉ E — Tissus pré-imprégnés polymérisés sous vide à chaud (≈120 °C)</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Les tissus pré-imprégnés sont déjà chargés en résine partiellement réticulée. Ils sont mis en forme puis polymérisés sous vide dans une étuve. Ce procédé offre une excellente maîtrise de l'épaisseur et des propriétés mécaniques, au prix de contraintes thermiques et organisationnelles plus fortes.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Organisation</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">4 étudiants répartis en 2 binômes</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Durée : 4 heures (impérativement le matin afin de surveiller le durcissement l'après-midi)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Binôme 1 : Procédé D (infusion à 20 °C)</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Binôme 2 : Procédé E (pré-imprégnés à 120 °C)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Consignes de sécurité</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Le port des EPI (gants nitrile, lunettes, blouse) est obligatoire. Les résines et solvants sont des produits chimiques dangereux. Toute manipulation se fait sous la supervision de l'enseignant. Une attention particulière est portée aux risques thermiques lors de l'utilisation de l'étuve.</sc:para>
+								<sc:para xml:space="preserve">Un briefing de sécurité et un protocole détaillé des travaux à effectuer seront présentés au début des travaux tutorés.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Travail préparatoire recommandé</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Avant le TT, le tuteur préparera l'assemblage des cellules photovoltaïques, la sélection et le découpage des tissus, la préparation de l'atelier.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les étudiants sont invités à consulter les vidéos et ressources fournies dans la playlist pédagogique associée (vacuum bagging, resin infusion, composites aéronautiques, encapsulation photovoltaïque). Ils sont encouragés à préparer des questions techniques avant la séance.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title># 03 — Matériaux &amp; exigences pour encapsulation sur une aile / cahier des charges</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Contraintes clés pour une application aéronautique / planeur :</sc:inlineStyle></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Poids : ajout minimal — chaque gramme compte.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">épaisseur de max de  3 mm de revêtement  : réalisable mais exige des matériaux et procédés à faible quantité de résine / films minces.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Transmission optique : encapsulant doit être très transparent (faible absorption / faible jaunissement).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Protection environnementale : étanchéité à l'humidité, stabilité UV, résistance thermique (cycles chaud/froid), compatibilité électrochimique (pas d'acides corrosifs).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Adhésion &amp; tenue mécanique : l'ensemble doit rester collé aux cellules et au substrat composite (pas de délaminage).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Sécurité électrique : isolation entre cellules et structure métallique (terre), reprendre pratiques PV (diodes bypass, boîtier de jonction si nécessaire).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title># 04 — Choix recommandé pour une aile de planeur</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">**Option prioritaire (robuste &amp; conforme PV) :** **lamination par film (EVA ou POE)** sur cellule montée sur mince support composite / backsheet.</sc:para>
+								<sc:para xml:space="preserve">Raisons : permet une **épaisseur d'encapsulation contrôlée** (0,5–1,5 mm), excellente transparence, durabilité industrielle si bien exécuté. Pour usage aéronautique, POE est intéressant pour longévité (meilleure résistance humidité/UV) — mais EVA reste plus simple/économique pour un TP.</sc:para>
+								<sc:para xml:space="preserve">**Option laboratoire / prototypage éducatif (plus accessible matériellement) :** **vacuum infusion** avec **voile E-glass très fin** + résine époxy optique à faible viscosité.</sc:para>
+								<sc:para xml:space="preserve">Raisons : permet montrer concepts composites (imprégnation fibres, débit résine, sac à vide), et obtenir couche fine si on limite la stratification à un voile + peel-ply. Attention : époxy peut jaunir à l'UV et ne donnera pas la durabilité d'un film EVA/POE industriel. À réserver comme démonstration/prototype.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter>
+								<sp:exclude>standard</sp:exclude>
+								<sp:exclude>short</sp:exclude>
+							</op:filter>
+						</sp:filters>
+						<sp:title># 05 — Protocoles opératoires (TP) — procédures détaillées et sécurisées</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">## Procédé A — **Lamination par film (EVA / POE)** — *procédure recommandée pour durabilité*</sc:para>
+								<sc:para xml:space="preserve">Matériel à prévoir :</sc:para>
+								<sc:para xml:space="preserve">* Cellules PV semi-assemblées (tabbing, bus-bars préparés) + câblage.</sc:para>
+								<sc:para xml:space="preserve">* Films encapsulants pré-découpés (EVA ou POE) adaptés aux dimensions.</sc:para>
+								<sc:para xml:space="preserve">* Feuille de backsheet (PET) ou mince contre-face composite.</sc:para>
+								<sc:para xml:space="preserve">* Presse laminatrice avec vide (laboratoire) ou chambre de lamination + four (mini laminator).</sc:para>
+								<sc:para xml:space="preserve">* Pompe à vide, thermocouple, gants, lunettes, vêtements résine.</sc:para>
+								<sc:para xml:space="preserve">Étapes (résumé) :</sc:para>
+								<sc:para xml:space="preserve">1. **Préparer les cellules** : nettoyer, tester I–V, souder interconnexions. Fixer provisoirement sur le substrat (adhésif léger).</sc:para>
+								<sc:para xml:space="preserve">2. **Préparer sandwich** : backsheet en bas, film encapsulant, cellules, film encapsulant dessus (option : feuille de protection supérieure).</sc:para>
+								<sc:para xml:space="preserve">3. **Placer dans laminatrice sous vide** : retirer l'air, chauffer selon cycle fournisseur d'encapsulant (ex. EVA typ. 140–150 °C pendant 8–15 min selon épaisseur/film). Respecter courbes de montée en T pour éviter exfoliation.</sc:para>
+								<sc:para xml:space="preserve">4. **Refroidissement sous vide** : maintien sous vide pendant refroidissement pour éviter bulles/poches.</sc:para>
+								<sc:para xml:space="preserve">5. **Finition** : découpe, application de bords d'étanchéité et boîtier de jonction pour câbles.</sc:para>
+								<sc:para xml:space="preserve">Remarques pédagogiques : mesurer pertes optiques avant/après ; comparer EVA vs POE (si possible) ; vérifier I–V à la fin.</sc:para>
+								<sc:para xml:space="preserve">## Procédé B — **Vacuum infusion / VARTM** avec voile E-glass + résine époxy (protocole TP)</sc:para>
+								<sc:para xml:space="preserve">But : prototype mince, démonstration de la technique composite.</sc:para>
+								<sc:para xml:space="preserve">Matériel à prévoir :</sc:para>
+								<sc:para xml:space="preserve">* Voile verre non tissé très fin (30–50 g/m²) + éventuellement tissu 2× tissu très fin si renfort.</sc:para>
+								<sc:para xml:space="preserve">* Films d'infusion, tubes, raccords, peel-ply, breather.</sc:para>
+								<sc:para xml:space="preserve">* Résine époxy **optical** à très faible viscosité + durcisseur (préférer époxy UV-stable si possible).</sc:para>
+								<sc:para xml:space="preserve">* Pompe à vide (10–50 mbar), balance, gants nitrile, lunette.</sc:para>
+								<sc:para xml:space="preserve">* Substrat rigide temporaire (moule plat) recouvert d'agent de démoulage.</sc:para>
+								<sc:para xml:space="preserve">Étapes :</sc:para>
+								<sc:para xml:space="preserve">1. **Disposition** : poser voile verre sur moule, délimiter zone cellule (prévoir découpes), placer les cellules (côté face vers l'extérieur). Utiliser fine isolation électrique sous la cellule (film PET 25–50 µm) si la résine est conductrice ou si risque de contact.</sc:para>
+								<sc:para xml:space="preserve">2. **Préparer sac &amp; réseau** : peel-ply, breather placés au-dessus ; positionner ligne d'entrée résine et ligne de sortie pour garantir flux couvrant toute la surface. Sceller sac.</sc:para>
+								<sc:para xml:space="preserve">3. **Mise sous vide d'essai** : vérifier étanchéité, aspirer air puis relâcher ; contrôler qu'il n'y a pas de soulèvement des cellules ou déplacement.</sc:para>
+								<sc:para xml:space="preserve">4. **Infusion** : démarrer injection résine à débit contrôlé, surveiller front de résine ; arrêter à imprégnation complète.</sc:para>
+								<sc:para xml:space="preserve">5. **Polymérisation** : laisser durcir selon préconisations résine (température ambiante ou légère chauffe si demandé).</sc:para>
+								<sc:para xml:space="preserve">6. **Démoulage &amp; finition** : ôter peel-ply, vérifier surface, limer bords. Mesurer épaisseur locale ; viser couches d'1,0–1,5 mm si possible.</sc:para>
+								<sc:para xml:space="preserve">Remarques : pour atteindre &lt;2 mm, utiliser **une seule couche de voile** et très peu de résine — risqué pour protection mécanique mais possible pour démonstration. Éviter résine à forte exothermie (cellules sensibles à T).</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Contraintes techniques à surveiller (liste pratique pour le TP)</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Un &quot;contrôle qualité&quot; et des relevés des  paramètres devront être assurés pendant et après les travaux afin de surveiller :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Température de polymérisation / lamination : ne pas dépasser la température maximale admise par la cellule (soudure, encapsulant).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Exothermie : résine trop réactive peut chauffer et endommager la cellule. Choisir résines à faible exothermie et contrôler masse.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Adhésion &amp; délaminage : contrôler surfaces (dégraissage, traitement corona si POE).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">UV &amp; jaunissement : EVA peut jaunir après années ; POE et silicones ont meilleure stabilité. Pour un projet aéronautique, privilégier matériaux limitant la dégradation.</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Isolation électrique : prévoir couche isolante/diélectrique entre résine et structure métallique ; respecter normes électriques (risque de courant de fuite, corrosion galvaniques).</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Poids &amp; épaisseur, quantité de résine utilisée : estimer masse ajoutée (résine ≈ 1.0–1.3 g/cm³). Exemple grossier : dépôt de 2 mm sur 2 m² → volume 0,004 m³ → ≈ 4,8 kg (trop lourd si cela s'ajoute à structure entière). Donc viser couches &lt; 1 mm ou utiliser des films. (Estimation indicative : densité résine 1.2 g/cm³ → 0,004×1.2 ≈ 4.8 kg).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Ces différents critères  devront être tracés et exploités dans le rapport final du PRI.</sc:para>
+								<sc:para xml:space="preserve">La prise de photos, vidéos est recommandée en veillant à leur possible diffusion comme moyen de communication externe.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Playlist pédagogique</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">&gt; &#x1f3af; Objectif : comprendre **ce qu'on va faire**, **avec quels matériaux**, **pourquoi**, et **où sont les pièges**, avant de toucher la résine.</sc:para>
+								<sc:para xml:space="preserve">---</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">## &#x1f7e2; 1. Bases composites &amp; sécurité (INDISPENSABLE)</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">**Vacuum Bagging Basics – How to Get Started**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://www.youtube.com/watch?v=6vR01GfJ5w8](https://www.youtube.com/watch?v=6vR01GfJ5w8</sp:url></op:urlM>https://www.youtube.com/watch?v=6vR01GfJ5w8](https://www.youtube.com/watch?v=6vR01GfJ5w8</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">À quoi servent peel-ply, breather, film à vide</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Pourquoi le vide améliore la qualité</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Erreurs typiques (fuites, plis, bulles)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">## &#x1f7e2; 2. Resin infusion – méthode principale du TP</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">**Beginner's Guide to Resin Infusion – Easy Composites**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://www.easycomposites.eu/learning/beginners-guide-to-carbon-fibre-resin-infusion](https://www.easycomposites.eu/learning/beginners-guide-to-carbon-fibre-resin-infusion</sp:url></op:urlM>https://www.easycomposites.eu/learning/beginners-guide-to-carbon-fibre-resin-infusion](https://www.easycomposites.eu/learning/beginners-guide-to-carbon-fibre-resin-infusion</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">(article + vidéo intégrée)*</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Différence hand-layup / infusion</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Cheminement de la résine</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Pourquoi on contrôle la quantité de résine</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">**How to Do Perfect Vacuum Resin Infusion**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://www.youtube.com/watch?v=VodfQcrXpxc](https://www.youtube.com/watch?v=VodfQcrXpxc</sp:url></op:urlM>https://www.youtube.com/watch?v=VodfQcrXpxc](https://www.youtube.com/watch?v=VodfQcrXpxc</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Placement des tuyaux</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Observation du front de résine</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Quand arrêter l'infusion</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">## &#x1f7e2; 3. Exemples **aéronautiques légers** (ailes / skins)</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">**Aerospace Carbon Fiber Infusion – UAV Wingskin (CAMX)**</sc:para>
+								<sc:para xml:space="preserve">▶️<sc:phrase role="url"><op:urlM><sp:url>https://www.youtube.com/watch?v=N6_76MfxeF8](https://www.youtube.com/watch?v=N6_76MfxeF8</sp:url></op:urlM> https://www.youtube.com/watch?v=N6_76MfxeF8](https://www.youtube.com/watch?v=N6_76MfxeF8</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Application directe sur peau d'aile</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Maîtrise de grandes surfaces</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Logique qualité aéronautique</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">**Aircraft Composites – Wet Layup &amp; Vacuum Bagging (BCIT)**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://www.youtube.com/watch?v=fnRAshCRaQs](https://www.youtube.com/watch?v=fnRAshCRaQs</sp:url></op:urlM>https://www.youtube.com/watch?v=fnRAshCRaQs](https://www.youtube.com/watch?v=fnRAshCRaQs</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Bonnes pratiques maintenance aéronautique</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Préparation surface / finition</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Discipline atelier (propreté, ordre)</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">## &#x1f7e2; 4. Encapsulation photovoltaïque (spécifique projet)</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">**Solar Cell EVA Encapsulation Process (Part 1)**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://www.youtube.com/watch?v=fnRAshCRaQs](https://www.youtube.com/watch?v=fnRAshCRaQs</sp:url></op:urlM>https://www.youtube.com/watch?v=Lr-mzJmhHv0](https://www.youtube.com/watch?v=Lr-mzJmhHv0</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Sandwich cellule + film EVA</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Sensibilité à la température</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Risque de bulles / défauts optiques</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">**DIY Solar Cell Encapsulation – Vacuum &amp; Heat**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://www.youtube.com/watch?v=N03REXTZLNI](https://www.youtube.com/watch?v=N03REXTZLNI</sp:url></op:urlM>https://www.youtube.com/watch?v=N03REXTZLNI](https://www.youtube.com/watch?v=N03REXTZLNI</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Principe lamination sous vide</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Pourquoi l'EVA/POE ≠ résine classique</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">## &#x1f7e2; 5. Lecture technique courte </sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">**NREL – Encapsulant materials for PV modules**</sc:para>
+								<sc:para xml:space="preserve">▶️ <sc:phrase role="url"><op:urlM><sp:url>https://research-hub.nrel.gov/en/publications/chapter-102-encapsulant-materials-for-pv-modules/](https://research-hub.nrel.gov/en/publications/chapter-102-encapsulant-materials-for-pv-modules/</sp:url></op:urlM>https://research-hub.nrel.gov/en/publications/chapter-102-encapsulant-materials-for-pv-modules/](https://research-hub.nrel.gov/en/publications/chapter-102-encapsulant-materials-for-pv-modules/</sc:phrase></sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Rôle de l'EVA / POE</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Vieillissement UV</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Contraintes thermiques et chimiques</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">---</sc:para>
+								<sc:para xml:space="preserve">### ⏱️ Temps total conseillé avant TP</sc:para>
+								<sc:para xml:space="preserve">➡️ 2 à 3 heures de consultation / familiarisation réparties sur une semaine.</sc:para>
+								<sc:para xml:space="preserve">Ne pas hésiter à proposer d'autres  liens trouvés au fur et à mesure de votre &quot;veille&quot; et/ou des documents téléchargés à conserver dans le Drive.</sc:para>
+								<sc:para xml:space="preserve">Des traductions ou des synthèses peuvent être réalisées.</sc:para>
+								<sc:para xml:space="preserve">Ce travail peut être réparti entre les différents membres du groupe.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>SYNTHÈSE DES “PRÉ-REQUIS DE COMPRÉHENSION AVANT TP</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">### &#x1f3af; Objectif du TP : Encapsuler des **cellules photovoltaïques** dans une **structure composite mince (&lt; 2 mm)** destinée à une **aile de planeur**, en utilisant des **procédés composites aéronautiques légers**.</sc:para>
+								<sc:para xml:space="preserve">---</sc:para>
+								<sc:para xml:space="preserve">### &#x1f9e0; Ce que vous devez comprendre AVANT de commencer</sc:para>
+								<sc:para xml:space="preserve">#### Composites – principes</sc:para>
+								<sc:para xml:space="preserve">* ☐ Différence **fibre / résine**</sc:para>
+								<sc:para xml:space="preserve">* ☐ Rôle du vide (moins de bulles, meilleure qualité)</sc:para>
+								<sc:para xml:space="preserve">* ☐ Pourquoi trop de résine = trop lourd</sc:para>
+								<sc:para xml:space="preserve">#### Vacuum bagging / infusion</sc:para>
+								<sc:para xml:space="preserve">* ☐ Rôle du peel-ply, breather, film à vide</sc:para>
+								<sc:para xml:space="preserve">* ☐ Cheminement de la résine</sc:para>
+								<sc:para xml:space="preserve">* ☐ Importance de l'étanchéité du sac</sc:para>
+								<sc:para xml:space="preserve">#### Spécificités aéronautiques</sc:para>
+								<sc:para xml:space="preserve">* ☐ Propreté et rigueur atelier</sc:para>
+								<sc:para xml:space="preserve">* ☐ Sensibilité masse / épaisseur</sc:para>
+								<sc:para xml:space="preserve">* ☐ Défauts inacceptables (bulles, délaminage, état de surface, déformation du profil)</sc:para>
+								<sc:para xml:space="preserve">#### Cellules photovoltaïques</sc:para>
+								<sc:para xml:space="preserve">* ☐ Fragilité mécanique</sc:para>
+								<sc:para xml:space="preserve">* ☐ Sensibilité à la température</sc:para>
+								<sc:para xml:space="preserve">* ☐ Pourquoi on n'utilise pas une résine “quelconque”</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

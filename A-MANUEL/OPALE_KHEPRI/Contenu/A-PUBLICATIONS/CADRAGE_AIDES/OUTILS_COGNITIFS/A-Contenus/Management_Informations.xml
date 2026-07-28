@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Le management des informations liées à un projet</sp:title>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Veille &gt; acquisition &gt;conservation &gt; exploitation des informations et des connaissances</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Le management des connaissances est l'ensemble des actions systématiques et organisées qu'une structure réalise pour obtenir une plus grande valeur des connaissances dont elle dispose (Davenport et Prusak, 1998).</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">L'un des aspects fondamentaux de la gestion de ce projet réside dans le management des connaissances et plus précisément des informations.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Le &quot;OneDrive Khépri&quot;</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">L'ensemble des informations utiles au projet KHEPRI est centralisé sur un espace informatique &quot;OneDrive&quot; hébergé par l'EAE.</sc:para>
+								<sc:para xml:space="preserve">Tous les contributeurs actifs, les cadres et étudiants concernés ont accès à cet espace collaboratif :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">en mode écriture / modification pour leur projet en cours :</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">en mode lecture pour le reste des répertoires.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">La forme général des répertoires est représentée ci-après :</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:res sc:refUri="/A-PUBLICATIONS/CADRAGE_AIDES/OUTILS_COGNITIFS/B-Ressources/OneDrive-Khepri-01.png">
+							<op:resInfoM/>
+						</sp:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Arborescence</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">L'arborescence choisie pour ranger les documents est fondée sur des répertoires au texte explicite, commençant par une alternance de chiffres, de lettres ou de dates afin de faciliter la circulation. Par exemple, dans la recopie ci-dessus on trouvera le CR de la réunion du 18/11/2022 en allant en : 06-E-02</sc:para>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Administration</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">L'administration de cet espace collaboratif est assuré par le porteur du projet Khépri. Les limites de ce Ondrive sont les suivantes :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">absence de système de management de base de données avec recherche de mots clés ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">absence de système de nettoyage de doublons ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">nécessité de mise à jour et de surveillance pour éviter les erreurs de sauvegardes.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Veille sectorielle et contributions attendues de la part de tous les stagiaires</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">La veille sectorielle consiste à surveiller de manière proactive une activité spécifique et son environnement en se basant sur des sources scientifiques, techniques, technologiques, organisationnelles, ainsi que des réseaux communautaires de spécialistes.</sc:para>
+								<sc:para xml:space="preserve">la veille sectorielle a pour objectif d'identifier et de suivre les évolutions des techniques et technologies utilisées dans le domaine lié au sous-système que vous étudiez. Il s'agit de rester informé des avancées technologiques et des alternatives qui pourraient influencer la réalisation de votre projet et plus généralement influencer l'ensemble du projet Khépri.</sc:para>
+								<sc:para xml:space="preserve">Cette activité doit être pratiquée de manière confidentielle, dans le respect de la légalité et de la déontologie. Cela implique de se conformer aux lois et réglementations en vigueur concernant la propriété intellectuelle, la confidentialité des informations et la protection des données. Vous trouverez ci-dessous les étapes principales pour réaliser une bonne veille sectorielle.</sc:para>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Mise à contribution des stagiaires</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Tous les étudiants qui ont accès au OneDrive Khépri sont invités à y déposer leurs travaux ainsi que les photos, liens internet et documents pertinents qu'ils y ont rédigés ou utilisés. Avant de poster ces informations  il est nécessaire de les synthétiser si possible sous forme de &quot;MEMO&quot; composé de phrases courtes et claires et de liens détaillés quand il s'agit de documents provenant du web.</sc:para>
+								<sc:para xml:space="preserve">Un nommage approprié des fichiers est imposé. Il figure dans le répertoire racine du OneDrive.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>La recherche d'informations</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pour effectuer les recherches il est important de le faire sur des sites dédiés à cet effet ou sur des forums ou des salons appropriés. Pour s'assurer que  l'information est pertinente et mérite d'être ajoutée sur la plateforme de stockage OneDrive, il convient de se poser les questions suivantes :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">L'auteur de l'étude, du livre ou de l'article, est-il fiable ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Qu'a-t-il écrit d'autres ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Est-ce un scientifique diplômé et reconnu par la profession ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">L'auteur fait-il parti d'une branche complotiste ou a-t-il déjà été accusé de “fake news” ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">L'avis de l'auteur est-il objectif ou subjectif ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Cherche-t-il à persuader ou à convaincre ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Est-ce un militant plus qu'un chercheur ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les informations délivrées sont-elles issues de sources fiables ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Les chiffres indiqués sont-ils officiels et véridiques ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">À quelle date ont-été écrites les informations trouvées ?</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Ces informations et les chiffres indiqués sont-ils toujours d'actualité ?</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">L'étudiant doit également évaluer la pertinence des informations collectées. Il doit se demander si celles-ci sont utiles pour sa recherche. Si elles ont permis de développer de nouvelles hypothèses de travail, ou si elles rentrent bien dans le cadre de son sujet.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

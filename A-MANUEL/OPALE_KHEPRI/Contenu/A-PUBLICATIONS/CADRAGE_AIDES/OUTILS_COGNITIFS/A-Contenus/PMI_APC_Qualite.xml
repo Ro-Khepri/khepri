@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:expUc xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:uM>
+			<sp:title>Les PMI, APC et contrôle Qualité</sp:title>
+			<sp:info>
+				<op:info>
+					<sp:cpyrgt>
+						<op:sPara>
+							<sc:para xml:space="preserve">#PDM</sc:para>
+						</op:sPara>
+					</sp:cpyrgt>
+				</op:info>
+			</sp:info>
+		</op:uM>
+		<sp:pb>
+			<op:pb>
+				<sp:info>
+					<op:pbTi/>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Pour aider la réflexion et faciliter la prise d'une décision importante, il est souvent conseillé de “peser le pour et le contre”. Cet adage conduit souvent à établir une liste de points d'analyse avec une colonne “plus” et une colonne “moins”. Cette méthode se révèle cependant insuffisante car elle donne une image binaire, en “Noir et Blanc” du problème à traiter et se trouve souvent biaisée par un parti pris inconscient. En effet, lorsque l'on pense, on tend tout naturellement à défendre un point de vue auquel on est arrivé par d'autres moyens que la réflexion.</sc:para>
+								<sc:para xml:space="preserve">Pour des problématiques complexes de recherche, développement ou de gestion de projet, qui nécessitent une analyse plus approfondie. L'emploi successif, si possible à plusieurs, des outils cognitifs appelés  &quot;contrôle qualité&quot;. “PMI” et “APC” se montre plus appropriée.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>Contrôle QUALITÉ</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">A l'issue de tout travail technico-scientifique il convient d'effectuer un &quot;contrôle qualité&quot;. Afin d'observer l'échantillon sur toutes ses faces, sans a-priori, pour s'assurer que le travail a été exécuté selon des règles précises et qu'il donne un résultat conforme à ce qui est attendu. Concrètement il convient d'analyser, critiquer et suggérer des évolutions dans les aspects suivants (liste non exhaustive) :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">critères physiques obtenus vs souhaités (dimension poids, solidité, aspect, assemblage, jeux, fonctionnement ...) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">normes et procédures employées ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">temps passé et difficultés rencontrées ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">ordonnancement du travail, répartition des tâches ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">préparation amont et organisation des postes de travail ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">notes, relevés, enregistrements, photos et vidéos prises à conserver ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Commandes de matériels pour approvisionnement, renouvellement améliorations futures ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Aspects logistiques et financiers ; délais d'approvisionnement et de réalisation.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Il ne s'agit pas de juger le travail de quelqu'un mais de vérifier la bonne application et l'intérêt et l'adéquation d'un processus de fabrication.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>PMI : PLUS - MOINS - INTERESSANT</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Le PMI est un outil cognitif qui facilite et standardise la réflexion.</sc:para>
+								<sc:para xml:space="preserve">Il se pratique de façon méthodique aussi bien seul qu'en groupe de travail, où il permet de passer d'un débat partisan à une véritable analyse du sujet.</sc:para>
+								<sc:para xml:space="preserve">Il se pratique autour d'un équipement ou d'un aspect technique, d'une expérimentation, d'un thème d'organisation, d'une planification ...</sc:para>
+								<sc:para xml:space="preserve">Au préalable les analystes se mettent d'accord sur les différents aspects à analyser :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Critères principaux (liste limitée, correspondent au cahier des charges) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Critères secondaires pouvant éventuellement être pris en considération (difficulté technique, côut, délais de livraison ....).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Il consiste à diriger successivement son attention vers les trois considérations suivantes :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">[P] &gt; PLUS &gt; Les points positifs ou conformes aux besoins ou attentes ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">[M] &gt; MOINS &gt; les points négatifs ou ne répondant pas aux critères initiaux ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">[I] &gt; INTERESSANT &gt; Les points dignes d'intérêt, à approfondir, à retenir, introduisant de nouveaux critères.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">La considération “INTERESSANT” à plusieurs fonctions :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Envisager une problématique sous un angle qui n'est pas uniquement positif ou négatif ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Permettre d'élargir l'analyse &gt; “il serait INTERESSANT de ... tester telle chose, ... de comparer telle autre, .... de mesurer tel paramètre ... etc.” “Cet élément présente l'INTERET de ...&quot; ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">Mettre en valeur une fonction ou une caractéristique qui n'avait pas été préalablement envisagée ou identifiée (coût, facilité d'emploi, disponibilité, ...).</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+								<sc:para xml:space="preserve">Ce procédé nécessite d'explorer méthodiquement et de bien noter chaque considération avant d'aborder la considération suivante, sans prendre parti sur la question. Ainsi, au lieu d'utiliser l'intelligence pour soutenir un parti pris, on s'en sert pour explorer et argumenter sur chaque considération.</sc:para>
+								<sc:para xml:space="preserve">Progressivement, chaque idée émise étant notée dans l'une ces trois rubriques, elle ne peut plus être ignorée et permet d'être prise en considération et/ou abandonnée dans la décision finale.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>APC : ALTERNATIVES – POSSIBILITES – CHOIX</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">Cet outil de “savoir-réfléchir” s’emploie après avoir effectué un PMI sur un sujet vaste, ou en regroupant plusieurs PMI sur des éléments comparables (test d'échantillons similaires par exemple).</sc:para>
+								<sc:para xml:space="preserve">Il consiste à reconsidérer le (ou les) PMI en portant son attention successivement sur les trois considérations suivantes :</sc:para>
+								<sc:itemizedList>
+									<sc:listItem>
+										<sc:para xml:space="preserve">[A] &gt; ALTERNATIVES &gt; Rechercher de nouvelles orientations, solutions ou démarches non prévues initialement (le plus souvent par exploitation de la rubrique “Intéressant”) ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">[P] &gt; POSSIBILITÉS &gt; Lister et proposer l'ensemble des solutions qui s'offrent ;</sc:para>
+									</sc:listItem>
+									<sc:listItem>
+										<sc:para xml:space="preserve">[C] &gt; CHOIX &gt; Obtenir un consensus dépassionné, trouver une ligne de conduite, clôturer une phase de travail. Demander un arbitrage si nécessaire.</sc:para>
+									</sc:listItem>
+								</sc:itemizedList>
+							</op:txt>
+						</sp:txt>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emp">ASSOCIATION PMI – APC</sc:inlineStyle></sc:para>
+								<sc:para xml:space="preserve">Pour gérer des problématiques complexes, ou mettant en comparaison de multiples échantillons, la conduite d'un PMI sur les différents éléments (ou aspects), puis d'un APC sur la globalité, permet de formuler des hypothèses ou des orientations nouvelles, d'en envisager les conséquences ou évolutions et de susciter les prises de décision appropriées.</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:filters>
+							<op:filter/>
+						</sp:filters>
+						<sp:title>CANEVAS FICHE DESCRIPTIVE GÉNÉRALE &gt;&gt; EXEMPLE ÉLÉMENT / ÉCHANTILLON ÉTUDIÉ</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txtRes>
+							<op:txtRes>
+								<op:txtResM>
+									<sp:pos>lft</sp:pos>
+								</op:txtResM>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">Références de l'échantillon : #PV26-03#</sc:para>
+										<sc:para xml:space="preserve">caractéristiques</sc:para>
+										<sc:para xml:space="preserve">lien internet éventuel</sc:para>
+									</op:txt>
+								</sp:txt>
+								<sp:img sc:refUri="/B-MANUEL_KHEPRI/03-SOUS_SYSTEME_PHOTOVOLTAIQUE/B-Ressources/Echantillon-PV26_03.jpg"/>
+							</op:txtRes>
+						</sp:txtRes>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">DESCRIPTION DÉTAILLÉE</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">panneau photovoltaïque de xx par xx cm, constitué de 10 cellules photovoltaïques de type SOLAR CELL, encapsulé par la méthode xx</sc:para>
+										<sc:para xml:space="preserve">Échantillon réalisé en mars 2026 par l'équipe #N00# encadrée par #PDM#.</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">ÉTAPES DE FABRICATION</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Soudure par points effectuée avec la soudeuse xx</sc:para>
+										<sc:para xml:space="preserve">Assemblage en série</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">MESURES EFFECTUÉES</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">Capacité nominale de chaque cellule</sc:para>
+										<sc:para xml:space="preserve">Caractéristiques attendues : 3 volts</sc:para>
+										<sc:para xml:space="preserve">TABLEAUX DES MESURES</sc:para>
+										<sc:table role="">
+											<sc:column width="20"/>
+											<sc:column width="20"/>
+											<sc:column width="20"/>
+											<sc:column width="20"/>
+											<sc:column width="20"/>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">Date</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">conditions</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">opérateur(s)</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">mesure(s)</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">remarques</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell/>
+												<sc:cell/>
+												<sc:cell/>
+												<sc:cell/>
+												<sc:cell/>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">CONTRÔLE QUALITÉ</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">xxxx</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emp">ANALYSE PMI</sc:inlineStyle></sc:para>
+										<sc:para xml:space="preserve">[A] CRITÈRES PRINCIPAUX RETENUS</sc:para>
+										<sc:para xml:space="preserve">xxxx</sc:para>
+										<sc:para xml:space="preserve">[B] ANALYSE</sc:para>
+										<sc:table role="">
+											<sc:column width="25"/>
+											<sc:column width="25"/>
+											<sc:column width="25"/>
+											<sc:column width="25"/>
+											<sc:row>
+												<sc:cell>
+													<sc:para xml:space="preserve">OBJET / ÉCHANTILLON</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">PLUS</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">MOINS</sc:para>
+												</sc:cell>
+												<sc:cell>
+													<sc:para xml:space="preserve">INTÉRESSANT</sc:para>
+												</sc:cell>
+											</sc:row>
+											<sc:row>
+												<sc:cell/>
+												<sc:cell/>
+												<sc:cell/>
+												<sc:cell/>
+											</sc:row>
+										</sc:table>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">CONTRÔLE DESTRUCTIF</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+						<sp:filtered>
+							<op:res>
+								<sp:txt>
+									<op:txt>
+										<sc:para xml:space="preserve">SYNTHÈSE APC</sc:para>
+										<sc:para xml:space="preserve">xxxx</sc:para>
+									</op:txt>
+								</sp:txt>
+							</op:res>
+						</sp:filtered>
+					</op:res>
+				</sp:info>
+				<sp:info>
+					<op:pbTi>
+						<sp:title>RESSOURCES, REFERENCES, BLIOGRAPHIE</sp:title>
+					</op:pbTi>
+					<op:res>
+						<sp:txt>
+							<op:txt>
+								<sc:para xml:space="preserve">[BBL-001] : “Réfléchir vite et bien” - Edward de Bono – Editions EYROLLES PRATIQUE – ISBN 978-2-212-56051-0 (2018)</sc:para>
+							</op:txt>
+						</sp:txt>
+					</op:res>
+				</sp:info>
+			</op:pb>
+		</sp:pb>
+	</op:expUc>
+</sc:item>

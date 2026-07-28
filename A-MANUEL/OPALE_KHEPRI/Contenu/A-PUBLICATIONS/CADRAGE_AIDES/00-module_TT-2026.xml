@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>KHEPRI 2026 - TRAVAUX COMPOSITES</sp:title>
+		</op:ueM>
+		<sp:intro>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Ce document a été élaboré à l'attention des étudiants impliqués dans le projet KHEPRI, pour leur permettre d'appréhender les fondamentaux théoriques et les aspects techniques liés à de réalisation de panneaux photovoltaïques en matériaux composites à implanter sur un planeur composite existant.</sc:para>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">La partie 1</sc:inlineStyle> &gt; présente les attendus et modalités générales des &quot;Travaux Tutorés&quot;  à effectuer dans les premières séances du projet, pour l'équipe responsable du maquettage des panneaux solaires.</sc:para>
+						<sc:itemizedList>
+							<sc:listItem>
+								<sc:para xml:space="preserve">L'équipe &quot;PRI 2026 PV&quot; mettra en œuvre deux méthodes d'encapsulage sous vide :  sous vide à température ambiante / sous vide étuvé entre 70 et 120°C. Ces deux méthodes constituent des innovations appliquées au projet Khépri.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">La partie 2</sc:inlineStyle> &gt; expose les pré-acquis relatifs aux différentes méthodes d'encapsulage de cellules photovoltaïques dans un revêtement composite verre/époxy, que tous les membres de l'équipe &quot;PRI 2026 PV&quot; devront avoir exploité avant le TT.</sc:para>
+						<sc:para xml:space="preserve">De manière générale, le TT , comme toute activité technique,devra être conduit dans le respect des règles de sécurité principales suivantes :</sc:para>
+						<sc:itemizedList>
+							<sc:listItem>
+								<sc:para xml:space="preserve">La résine est un produit chimique dangereux et salissant</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">Les gants et lunettes sont obligatoires</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">La ventilation est indispensable</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">Rien ne se fait sans validation du tuteur</sc:para>
+							</sc:listItem>
+							<sc:listItem>
+								<sc:para xml:space="preserve">Les appareils doivent être éteints et/ou débranchés lorsque vous quittez le laboratoire.</sc:para>
+							</sc:listItem>
+						</sc:itemizedList>
+						<sc:para xml:space="preserve">De nombreux liens web sont fournis en annexe : ils reflètent quelques aspects de la veille réalisée sur le thème de l'encapsulage de cellules photovoltaïques. Il est attendu de chaque groupe d'élèves de visionner ces documents et d'en chercher de nouveaux permettant de les compléter et/ou d'ouvrir d'autres pistes innovantes ou astucieuses de fabrication et d'assemblage. L'emploi de l'intelligence artificielle peut faciliter ces recherches multilingues et multiformes.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sp:intro>
+		<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/60-COMPOSITES/B-Travaux_tutorés/A-Contenus/TT_PRI_2026.xml"/>
+		<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/60-COMPOSITES/A-Contenus/Encapsulage.xml"/>
+		<sp:courseUc sc:refUri="/B-MANUEL_KHEPRI/03-SOUS_SYSTEME_PHOTOVOLTAIQUE/A-Contenus/3-1-ETAT_ART/03.01.02-Technologies_veille.xml"/>
+	</op:ue>
+</sc:item>
