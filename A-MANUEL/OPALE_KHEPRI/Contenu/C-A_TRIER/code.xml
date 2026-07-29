@@ -1,2 +1,2 @@
 <?xml version="1.0"?>
-<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3"><op:code><sc:code mimeType="" xml:space="preserve"/></op:code></sc:item>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3"><op:code><sc:code mimeType="text/x-csrc" xml:space="preserve">ici exemple de code C n°2</sc:code></op:code></sc:item>
