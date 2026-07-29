@@ -1,0 +1,66 @@
+<?xml version="1.0"?><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" version="1"><op:expUc><op:uM><sp:title><op:title><sc:para xml:space="preserve">Vérification des données techniques</sc:para></op:title></sp:title><sp:sTitle><op:title><sc:para xml:space="preserve">Grain 7.1.2</sc:para></op:title></sp:sTitle><sp:info><op:info><sp:cpyrgt><op:sPara><sc:para xml:space="preserve">slt Natacha DION, slt Lisa CHOUCHANE et slt Marine ROUDIERE</sc:para></op:sPara></sp:cpyrgt></op:info></sp:info></op:uM><sp:pb><op:pb><sp:info><op:pbTi><sp:filters><op:filter><sp:exclude>short</sp:exclude></op:filter></sp:filters><sp:title><op:title><sc:para xml:space="preserve">Objectifs de ce grain de contenu</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Décrire la démarche d'extraction et de vérification des données géométriques du planeur Libelle H201B (profils d'ailes, coupes du fuselage, drapage) utilisées en entrée de la maquette numérique CAO, en confrontant documentation technique d'origine, sources indépendantes et mesures expérimentales sur les éléments de planeur disponibles (source : rapport PRD 2021-03 « CAO et calcul vibratoire d'un planeur à Motorisation Photovoltaïque », chapitre III).</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Extraction des données : documentation technique</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Dans une salle de travaux pratiques, de la documentation technique et des éléments du planeur Libelle H201 (entiers ou en morceaux, destinés à la prise de mesures, aux maquettages et aux essais non destructifs) étaient mis à disposition par M. Prodhome, fondateur du projet. Avant toute modélisation numérique, il était nécessaire de rassembler l'ensemble des mesures et données disponibles sur le planeur d'origine : la documentation fournie a donc été extraite et triée, dans une démarche d'état de l'art.</sc:para><sc:para xml:space="preserve">Le dossier de calcul (en allemand) ayant servi à la certification initiale de l'aéronef a fourni de nombreuses données pertinentes pour la maquette numérique. La documentation technique comprenait également les plans du planeur dessinés par Martin Simons (2003) ainsi que le catalogue de profils de Stuttgart (1972), comportant les données du profil d'aile Wortmann FX 66-17 A II-182 du Libelle.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_016_image_002_figure_7_plans_de_martin_simons.png"><op:resInfoM/></sp:res></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Extraction des données : autres sources</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">En complément de la documentation fournie, les caractéristiques techniques du planeur d'origine ont été recherchées sur plusieurs sites indépendants, permettant de corroborer les données déjà extraites. Des données numériques du profil d'aile Wortmann FX 66-17 All-182 ont également été trouvées sur le site « Airfoil Tools », permettant d'obtenir un tableau des points du profil pour différentes longueurs de corde, directement réutilisé dans la conception des ailes sous CATIA V5.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_017_image_002_figure_8_airfoil_plotter_fx_66_17_all_182.png"><op:resInfoM/></sp:res></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Vérification des profils d'ailes</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Les données collectées provenant pour la plupart de documentation datant des années 1970, il a été nécessaire de les vérifier. Le catalogue de profils Stuttgart et le site Airfoil Tools fournissant chacun un profil théorique de l'aile, ces deux sources ont d'abord été comparées entre elles (profils exprimés en pourcentage, pour une corde de 1) : les deux profils se sont révélés très similaires, avec une légère différence au niveau de l'extrados.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_018_image_002_figure_9_comparaison_des_donnees_theoriques_du_profil_daile_wortmann.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Les profils théoriques ont ensuite été comparés au profil réel du planeur. Un pointage sur photographie a été réalisé avec le logiciel LatisPro (après avoir positionné l'image de façon à ce que le profil soit horizontal, et défini l'origine et l'échelle), puis avec un programme Python dédié permettant d'ouvrir une image et d'afficher les coordonnées d'un point cliqué (voir listing ci-dessous). Cette seconde méthode, bien que le logiciel ne soit initialement pas prévu pour cet usage, s'est révélée plus précise, avec un lissage plus prononcé de la courbe obtenue ; les résultats des deux méthodes restent toutefois similaires.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_018_image_006_figure_10b_pointage_sous_latispro.png"><op:resInfoM/></sp:res><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_019_image_002_figure_11_comparaison_des_deux_methodes_de_pointage.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Programme Python utilisé pour le pointage de points sur une image (relevé des coordonnées et des couleurs de pixel au clic) :</sc:para></op:txt></sp:txt><sp:listing><op:code><sc:code mimeType="text/x-python" xml:space="preserve"># -*- coding: utf-8 -*-
+"""
+Analyse d'image - Relevé de points
+@author: Natacha DION
+"""
+# importing the module
+import cv2
+
+# function to display the coordinates
+# of the points clicked on the image
+def click_event(event, x, y, flags, params):
+
+    # checking for left mouse clicks
+    if event == cv2.EVENT_LBUTTONDOWN:
+
+        # displaying the coordinates
+        # on the Shell
+        print(x, ' ', y)
+
+        # displaying the coordinates
+        # on the image window
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(img, str(x) + ',' +
+                    str(y), (x,y), font,
+                    1, (255, 0, 0), 2)
+        cv2.imshow('image', img)
+
+    # checking for right mouse clicks
+    if event==cv2.EVENT_RBUTTONDOWN:
+
+        # displaying the coordinates
+        # on the Shell
+        print(x, ' ', y)
+
+        # displaying the coordinates
+        # on the image window
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        b = img[y, x, 0]
+        g = img[y, x, 1]
+        r = img[y, x, 2]
+        cv2.putText(img, str(b) + ',' +
+                    str(g) + ',' + str(r),
+                    (x,y), font, 1,
+                    (255, 255, 0), 2)
+        cv2.imshow('image', img)
+
+# driver function
+if __name__=="__main__":
+
+    path = r'C:\Users\Natacha DION.LAPTOP-8R6LFCV1\Documents\EA\PRD\Analyse image\Profil emplenture.jpg'
+
+    # reading the image
+    img = cv2.imread(path, 1)
+
+    # displaying the image
+    cv2.imshow('image', img)
+
+    # setting mouse handler for the image
+    # and calling the click_event() function
+    cv2.setMouseCallback('image', click_event)
+
+    # wait for a key to be pressed to exit
+    cv2.waitKey(0)
+
+    # close the window
+</sc:code></op:code></sp:listing><sp:int sc:refUri="/Contenu/B-MANUEL_KHEPRI/07-DAO_CAO_MODELISATION_SIMULATION/A-Contenus/7-1-CAO/Codes/Analyse_image_profil.net"><op:instructionM/></sp:int><sp:txt><op:txt><sc:para xml:space="preserve">Un bandeau de tolérance de 5% autour des valeurs théoriques (site Airfoil Tools d'une part, catalogue Stuttgart d'autre part) a ensuite été comparé aux relevés expérimentaux réalisés au saumon et à l'emplanture de l'aile. Les courbes des relevés expérimentaux s'intègrent mieux dans la tolérance des 5% avec les données du site Airfoil Tools qu'avec celles du catalogue Stuttgart ; les rares zones hors tolérance se situent près du bord de fuite, où les valeurs sont très faibles et le risque d'erreur de pointage important.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_019_image_004_figure_12a_comparaison_avec_les_donnees_airfoil_tools.png"><op:resInfoM/></sp:res><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_019_image_006_figure_12b_comparaison_avec_les_donnees_du_catalogue_de_stuttgart.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Conclusion : le profil mesuré sur le planeur correspond bien à un Wortmann FX 66-17 All-182. Les données extraites du site Airfoil Tools ont été retenues pour le reste du projet.</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Vérification du fuselage</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Les données des ailes vérifiées, le fuselage a été étudié à partir des plans dessinés par Martin Simons (2003), qui fournissent des coupes du fuselage placées à leurs différentes abscisses, sans coordonnées exactes. Le logiciel de pointage graphique LatisPro a permis d'obtenir la valeur de ces abscisses ; il restait alors à vérifier que les formes et positions de chaque coupe correspondaient à la réalité.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_020_image_004_figure_13_coupes_du_fuselage_en_fonction_de_labscisse.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Sur les éléments de planeur disponibles, aux abscisses correspondant aux différentes coupes du dessin, une série de mesures a été réalisée : à abscisse fixée, la distance entre l'arête supérieure et la hauteur a été mesurée à 10, 20, 30 et 40 cm (lorsque la largeur du fuselage le permettait), puis comparée à la documentation.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_020_image_002_figure_14_photo_des_releves_sur_le_fuselage.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Un morceau de fuselage sectionné, donnant accès à l'une des coupes du planeur (à 4,2 m), a par ailleurs permis de comparer directement les mesures relevées au dessin de Martin Simons, avec la même méthode que celle employée pour le profil d'aile : les données corroborent le dessin d'origine.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/03 - PRD 2021-03/page_021_image_002_figure_15_comparaison_des_mesures_experimentales_aux_plans_de_martin_s.png"><op:resInfoM/></sp:res></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Le drapage : point non résolu et perspectives</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Les vérifications ont été principalement focalisées sur la partie extérieure du planeur (profils, fuselage) : la structure du drapage (composite et orientation des plis) n'a pas pu être vérifiée dans le cadre de ce rapport, bien qu'il apparaisse nécessaire que les prochains groupes s'y intéressent pour mener les calculs de structure.</sc:para><sc:para xml:space="preserve">La réflexion en amont a néanmoins été menée : il a été décidé de travailler sur deux sections orientées, positionnées de part et d'autre de la cassure de l'aile, afin de mettre en lumière si cette cassure engendre un changement d'orientation du drapage. Les coupes correspondantes ont été réalisées ; il reste aux prochains groupes à brûler ces sections et à observer les cendres pour en déduire le motif du drapage (voir également le grain « Tissage aéroélastique : principe et avantages » pour la suite envisagée sur ce point).</sc:para></op:txt></sp:txt></op:res></sp:info></op:pb></sp:pb></op:expUc></sc:item>
