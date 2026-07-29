@@ -1,0 +1,3 @@
+LOAD E:\PRD PLANEUR\AVL\runs\Libelle.avl
+CASE E:\PRD PLANEUR\AVL\runs\Libelle_Incidence.run
+MASS E:\PRD PLANEUR\AVL\runs\Libelle.mass

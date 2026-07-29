@@ -1,0 +1,17 @@
+#-------------------------------------------------
+#  Libelle 
+#
+#  Dimensional unit and parameter data.
+#  Mass & Inertia breakdown.
+#-------------------------------------------------
+Lunit = 1 m
+Munit = 1 kg
+Tunit = 1.0 s
+g   = 9.81
+rho = 1.225
+#  mass   x     y     z       Ixx   Iyy   Izz    Ixy  Ixz  Iyz
+    55.4  2  -3.67  0.055      250   2   250    ! right wing       
+    55.4  2  3.67  0.055      250   2   250    ! left wing        
+    81.4  1.75   0.0   0.0      0  2675  2675  ! fuselage pod
+     7.8  5.5   0.0   0       2.9   0.1  2.9   ! stab
+
