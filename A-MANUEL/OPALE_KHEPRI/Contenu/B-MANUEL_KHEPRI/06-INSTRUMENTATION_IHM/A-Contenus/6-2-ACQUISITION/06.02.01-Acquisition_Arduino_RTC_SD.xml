@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" version="1"><op:expUc><op:uM><sp:title><op:title><sc:para xml:space="preserve">Acquisition des températures : Arduino Mega, horloge DS1307 et carte SD</sc:para></op:title></sp:title><sp:sTitle><op:title><sc:para xml:space="preserve">Grain 6.2.1</sc:para></op:title></sp:sTitle><sp:info><op:info><sp:cpyrgt><op:sPara><sc:para xml:space="preserve">slt Noumegnan Serge MANGA</sc:para></op:sPara></sp:cpyrgt></op:info></sp:info></op:uM><sp:pb><op:pb><sp:info><op:pbTi><sp:filters><op:filter><sp:exclude>short</sp:exclude></op:filter></sp:filters><sp:title><op:title><sc:para xml:space="preserve">Objectifs de ce grain de contenu</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Décrire le banc d'acquisition réalisé en 2025 pour enregistrer, toutes les dix secondes et avec horodatage, la température de dix capteurs LM35DZ sur une carte SD : matériel, branchements, programme Arduino commenté et exploitation des fichiers obtenus (source : stage de fin d'études #EAE19# SFE 2025-01, mémoire de SLT Noumegnan Serge MANGA, cursus licence, juin 2025, sous la direction de M. Patrick PRODHOME, chapitre IV-4-2, annexe 3 et annexe « Branchement pour le banc d'essai EAE » ; liste des composants de l'IUT de Salon-de-Provence, document « images pour IUT » du 11 mai 2025).</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Du banc de l'IUT au banc de l'École</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Les capteurs sont programmés avec le logiciel Arduino, en langage C. La carte Arduino configure les capteurs et enregistre les données sur une carte SD, dans un fichier lisible par un tableur ; les valeurs peuvent aussi s'afficher sur un écran LCD ou dans le moniteur série de l'ordinateur.</sc:para><sc:para xml:space="preserve">En janvier 2025, les étudiants de l'IUT de Salon-de-Provence avaient réalisé une maquette et des essais. Leur banc associe les cellules, le moteur, la batterie, un régulateur MPPT et un hacheur, une carte Arduino Mega avec un module Grove Shield, des capteurs de courant et de tension, des diviseurs de tension Grove, des modules de température LM35, un écran Grove LCD de 2 × 16 caractères, un shield pour carte SD, une horloge RTC Grove et un module relais Grove de 30 A ; son schéma d'instrumentation est présenté dans le grain 3.1.4. En s'en inspirant directement, le binôme de l'École a réalisé un nouveau banc d'essai fonctionnel.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/19 - SFE 2025-01/ressources/page_030_image_002_banc_IUT.jpg"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Figure 24 du mémoire : banc d'essai de l'IUT</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/19 - SFE 2025-01/ressources/page_030_image_003_banc_EAE.jpg"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Figure 25 du mémoire : banc d'essai de l'École de l'air et de l'espace</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Matériel et branchements</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Le banc de l'École utilise une carte Arduino Mega 2560, dix capteurs LM35DZ, un module associant une horloge temps réel DS1307 et un lecteur de carte SD, des fils Dupont et une carte microSD. Chaque LM35DZ a trois broches : sa sortie Vout va sur une entrée analogique, son alimentation sur le 5 V et sa masse sur la masse de la carte.</sc:para><sc:table role=""><sc:caption xml:space="preserve">Branchements du banc d'acquisition de l'École</sc:caption><sc:column width="33"/><sc:column width="33"/><sc:column width="33"/><sc:row><sc:cell><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Composant</sc:inlineStyle></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Broche</sc:inlineStyle></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Raccordement sur l'Arduino Mega 2560</sc:inlineStyle></sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">LM35_0 à LM35_9</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">Vout</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">entrées analogiques A0 à A9</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">LM35_0 à LM35_9</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">VCC / GND</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">5 V / GND</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">module DS1307 + SD</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">VCC / GND</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">5 V / GND</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">horloge DS1307 (bus I²C)</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">SCL / SDA</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">broche 21 / broche 20</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">lecteur SD (bus SPI)</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">CS</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">broche 53</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">lecteur SD (bus SPI)</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">MOSI / MISO / SCK</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">broches 51 / 50 / 52</sc:para></sc:cell></sc:row></sc:table><sc:para xml:space="preserve">Les bibliothèques à installer sont RTClib pour l'horloge, SD pour la carte SD et Wire pour le bus I²C de la DS1307.</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Programme</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Au démarrage, le programme ouvre la liaison série à 9 600 bauds et le bus I²C, vérifie la présence de l'horloge et la met à l'heure de la compilation si elle était arrêtée, initialise la carte SD, puis crée s'il n'existe pas le fichier tempLM35.csv avec une ligne d'en-tête « Date,Heure,LM35_0,…,LM35_9 ». Ensuite, à chaque cycle, il lit la date et l'heure, convertit la mesure de chaque entrée analogique en tension, <sc:textLeaf role="mathtex">U=N\times 5/1023</sc:textLeaf>, puis en température, <sc:textLeaf role="mathtex">T=100\,U</sc:textLeaf>, puisque le LM35 délivre 10 mV/°C, affiche la ligne dans le moniteur série, l'ajoute au fichier et attend dix secondes.</sc:para></op:txt></sp:txt><sp:listing><op:code><sc:code mimeType="text/x-csrc" xml:space="preserve">// Acquisition de 10 capteurs LM35DZ avec horodatage (RTC DS1307) et enregistrement sur carte SD
+// Croquis « sketch_may8b.ino », transcrit depuis l'annexe 3 du mémoire SFE 2025-01 (capture d'écran) :
+// à comparer au fichier original s'il est retrouvé. Carte : Arduino Mega 2560.
+#include &lt;Wire.h&gt;
+#include &lt;RTClib.h&gt;
+#include &lt;SD.h&gt;
+
+RTC_DS1307 rtc;
+
+const int chipSelect = 53;
+File dataFile;
+
+const int numSensors = 10;
+const int analogPins[numSensors] = {A0, A1, A2, A3, A4, A5, A6, A7, A8, A9};
+
+void setup() {
+  Serial.begin(9600);
+  Wire.begin();
+
+  // Initialisation RTC
+  if (!rtc.begin()) {
+    Serial.println("RTC non détecté !");
+    while (1);
+  }
+
+  if (!rtc.isrunning()) {
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  }
+
+  // Initialisation carte SD
+  if (!SD.begin(chipSelect)) {
+    Serial.println("Échec de la carte SD !");
+    while (1);
+  }
+
+  // Création du fichier CSV s'il n'existe pas
+  if (!SD.exists("tempLM35.csv")) {
+    dataFile = SD.open("tempLM35.csv", FILE_WRITE);
+    dataFile.print("Date,Heure");
+    for (int i = 0; i &lt; numSensors; i++) {
+      dataFile.print(",LM35_");
+      dataFile.print(i);
+    }
+    dataFile.println();
+    dataFile.close();
+  }
+
+  Serial.println("Initialisation terminée.");
+}
+
+void loop() {
+  DateTime now = rtc.now();
+
+  String dataString = String(now.year()) + "-" + String(now.month()) + "-" + String(now.day()) + "," +
+                      String(now.hour()) + ":" + String(now.minute()) + ":" + String(now.second());
+
+  // Lire les 10 capteurs
+  for (int i = 0; i &lt; numSensors; i++) {
+    int sensorValue = analogRead(analogPins[i]);
+    float voltage = sensorValue * (5.0 / 1023.0);
+    float temperature = voltage * 100; // LM35 : 10mV/°C
+    dataString += "," + String(temperature, 2);
+  }
+
+  Serial.println(dataString);
+
+  // Écriture dans le fichier CSV
+  dataFile = SD.open("tempLM35.csv", FILE_WRITE);
+  if (dataFile) {
+    dataFile.println(dataString);
+    dataFile.close();
+  } else {
+    Serial.println("Erreur lors de l'ouverture du fichier.");
+  }
+
+  delay(10000); // Intervalle de 5 secondes
+}</sc:code></op:code></sp:listing><sp:res sc:refUri="/B-MANUEL_KHEPRI/06-INSTRUMENTATION_IHM/A-Contenus/6-2-ACQUISITION/Codes/Acquisition_LM35_RTC_SD.net"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Le fichier obtenu s'ouvre directement dans un tableur : une ligne par relevé, la date, l'heure et les dix températures.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/19 - SFE 2025-01/ressources/page_031_image_002_releve_CSV.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Figure 27 du mémoire : relevés de température en cours d'enregistrement dans le fichier CSV</sc:para><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Note de relecture</sc:inlineStyle> : le commentaire de la dernière ligne annonce 5 secondes, mais delay(10000) attend 10 secondes. Avec la référence de 5 V, un pas du convertisseur vaut environ 4,9 mV, soit 0,49 °C, et cette référence varie avec l'alimentation USB ; la référence interne de 1,1 V de l'Arduino Mega (analogReference(INTERNAL1V1)) donnerait un pas d'environ 0,11 °C jusqu'à 110 °C, suffisant pour la plage du LM35DZ et plus stable. Les dates ne sont pas complétées par des zéros (2025-5-8), ce qui gêne le tri. Pour des fils de plusieurs mètres sur une aile, prévoir un filtrage ou des capteurs numériques.</sc:para></op:txt></sp:txt></op:res></sp:info></op:pb></sp:pb></op:expUc></sc:item>

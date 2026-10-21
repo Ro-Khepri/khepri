@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3" version="1"><op:expUc><op:uM><sp:title><op:title><sc:para xml:space="preserve">Optimums du vol plané du H201B : finesse maximale, taux de chute minimal et vitesse MacCready</sc:para></op:title></sp:title><sp:sTitle><op:title><sc:para xml:space="preserve">Grain 1.2.7</sc:para></op:title></sp:sTitle><sp:info><op:info><sp:cpyrgt><op:sPara><sc:para xml:space="preserve">slt Sultan ASIRI</sc:para></op:sPara></sp:cpyrgt></op:info></sp:info></op:uM><sp:pb><op:pb><sp:info><op:pbTi><sp:filters><op:filter><sp:exclude>short</sp:exclude></op:filter></sp:filters><sp:title><op:title><sc:para xml:space="preserve">Objectifs de ce grain de contenu</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Calculer, avec un modèle parabolique de la polaire du H201B et l'Aerospace Toolbox de MATLAB, la vitesse de finesse maximale, la vitesse de taux de chute minimal et la vitesse à tenir entre deux ascendances selon la théorie de MacCready, en vue de les afficher dans le cockpit (source : stage de fin d'études #EAE14# SFE 2023-02, « Planeur photovoltaïque : simulations, calculs et commande », SLT Sultan ASIRI, cursus licence, juin 2023, sous la direction de M. Sébastien KOLB, chapitre IV et annexes).</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Modèle utilisé</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Le calcul adapte au H201B l'exemple <sc:phrase role="url"><op:urlM><sp:url>https://www.mathworks.com/help/aerotbx/ug/calculating-best-glide-quantities.html</sp:url></op:urlM>Calculating Best Glide Quantities</sc:phrase> de la documentation de l'Aerospace Toolbox de MATLAB, écrit à l'origine pour un Cessna 172. La polaire est parabolique : <sc:textLeaf role="mathtex">C_D=C_{D0}+k_2\,C_L^2</sc:textLeaf>, avec <sc:textLeaf role="mathtex">k_2=1/(\pi e A)</sc:textLeaf>.</sc:para><sc:table role=""><sc:caption xml:space="preserve">Données du calcul des optimums de vol plané (rapport SFE 2023-02)</sc:caption><sc:column width="50"/><sc:column width="50"/><sc:row><sc:cell><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Grandeur</sc:inlineStyle></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Valeur</sc:inlineStyle></sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">poids <sc:textLeaf role="mathtex">W</sc:textLeaf></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">3 430 N (350 kg)</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">surface alaire <sc:textLeaf role="mathtex">S</sc:textLeaf></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">9,8 m²</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">allongement <sc:textLeaf role="mathtex">A</sc:textLeaf></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">22,95</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">coefficient de traînée à portance nulle <sc:textLeaf role="mathtex">C_{D0}</sc:textLeaf></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">0,0093</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">coefficient de traînée induite <sc:textLeaf role="mathtex">k_2</sc:textLeaf></sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">0,0139 (coefficient d'Oswald <sc:textLeaf role="mathtex">e</sc:textLeaf> voisin de 1)</sc:para></sc:cell></sc:row><sc:row><sc:cell><sc:para xml:space="preserve">altitude du calcul</sc:para></sc:cell><sc:cell><sc:para xml:space="preserve">4 000 ft (1 219 m), atmosphère COESA de l'exemple</sc:para></sc:cell></sc:row></sc:table><sc:para xml:space="preserve">Les vitesses sont exprimées en vitesse vraie (TAS), puis converties en vitesse conventionnelle en nœuds (KCAS), proche de l'indication de l'anémomètre, avec les fonctions convvel et correctairspeed.</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Finesse maximale</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">La meilleure pente de plané, celle qui permet d'aller le plus loin, est obtenue à finesse maximale :</sc:para><sc:para xml:space="preserve"><sc:textLeaf role="mathtex">C_{L,bg}=\sqrt{\pi e A\,C_{D0}}\qquad f_{max}=\frac{1}{2}\sqrt{\frac{\pi e A}{C_{D0}}}\qquad TAS_{bg}=\sqrt{\frac{2W}{\rho S\,C_{L,bg}}}\qquad \sin\gamma_{bg}=-\frac{1}{f_{max}}</sc:textLeaf></sc:para><sc:para xml:space="preserve">La traînée et la portance correspondantes valent <sc:textLeaf role="mathtex">D_{bg}=-W\sin\gamma_{bg}</sc:textLeaf> et <sc:textLeaf role="mathtex">L_{bg}=W\cos\gamma_{bg}</sc:textLeaf>. Pour vérifier le résultat, les traînées sont tracées en fonction de la vitesse : la traînée parasite <sc:textLeaf role="mathtex">D_p=\frac{1}{2}\rho S C_{D0}\,TAS^2</sc:textLeaf> croît avec la vitesse, la traînée induite <sc:textLeaf role="mathtex">D_i=\frac{2W^2}{\rho S\,\pi e A\,TAS^2}</sc:textLeaf> décroît, et la traînée totale est minimale à la vitesse de finesse maximale.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/14 - SFE 2023-02/ressources/asiri_page_028_image_019_finesse_fonction_kcas.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Finesse en fonction de la vitesse conventionnelle (KCAS) ; le point noir marque la finesse maximale.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/14 - SFE 2023-02/ressources/asiri_page_028_image_020_trainees_parasite_induite_totale.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Traînées parasite, induite et totale en fonction de la vitesse conventionnelle (KCAS).</sc:para><sc:para xml:space="preserve">Valeurs recalculées lors de la rédaction de ce grain avec ces données : finesse maximale d'environ 44 pour <sc:textLeaf role="mathtex">C_L</sc:textLeaf> = 0,82, soit 28 m/s en vitesse vraie à 4 000 ft (environ 52 KCAS, ce que montre la figure) et 26,4 m/s (95 km/h) au niveau de la mer, avec une pente de 1,3°.</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Taux de chute minimal</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Le taux de chute minimal, utile pour durer dans une ascendance faible, est obtenu à la vitesse qui minimise la puissance nécessaire <sc:textLeaf role="mathtex">P=D\cdot TAS</sc:textLeaf> :</sc:para><sc:para xml:space="preserve"><sc:textLeaf role="mathtex">C_{L,bdr}=\sqrt{3\,\pi e A\,C_{D0}}\qquad TAS_{bdr}=\sqrt{\frac{2W}{\rho S\,C_{L,bdr}}}\qquad V_{z,min}=-TAS_{bdr}\,\frac{C_{D,bdr}}{C_{L,bdr}}</sc:textLeaf></sc:para><sc:para xml:space="preserve">Le code recherche aussi ce minimum directement sur la courbe de puissance nécessaire.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/14 - SFE 2023-02/ressources/asiri_page_030_image_025_puissances_necessaires.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Puissances nécessaires parasite, induite et totale ; le point noir marque le minimum de la puissance totale.</sc:para><sc:para xml:space="preserve">Valeurs recalculées : <sc:textLeaf role="mathtex">C_{L,bdr}</sc:textLeaf> = 1,42, soit 21,3 m/s à 4 000 ft et un taux de chute de 0,56 m/s. Ce coefficient de portance égale le <sc:textLeaf role="mathtex">C_{z,max}</sc:textLeaf> du Libelle : avec ce modèle, la vitesse de taux de chute minimal est à la limite du décrochage.</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Vitesse MacCready</sc:para></op:title></sp:title></op:pbTi><op:res><sp:txt><op:txt><sc:para xml:space="preserve">Paul MacCready s'est intéressé aux vitesses à choisir en compétition, entre des ascendances régulièrement espacées. On considère un segment de vol formé d'un plané de longueur <sc:textLeaf role="mathtex">d</sc:textLeaf> jusqu'à l'ascendance suivante, puis d'une montée qui ramène le planeur à son altitude de départ. Avec <sc:textLeaf role="mathtex">V</sc:textLeaf> la vitesse de plané, <sc:textLeaf role="mathtex">S_i</sc:textLeaf> la vitesse verticale en plané (négative : vitesse de chute de la polaire augmentée du mouvement de la masse d'air) et <sc:textLeaf role="mathtex">C_l</sc:textLeaf> la vitesse de montée attendue dans l'ascendance :</sc:para><sc:itemizedList><sc:listItem><sc:para xml:space="preserve">temps de plané : <sc:textLeaf role="mathtex">t_1=d/V</sc:textLeaf>, pendant lequel le planeur perd la hauteur <sc:textLeaf role="mathtex">h=-t_1\,S_i</sc:textLeaf> ;</sc:para></sc:listItem><sc:listItem><sc:para xml:space="preserve">temps de montée : <sc:textLeaf role="mathtex">t_2=h/C_l</sc:textLeaf> ;</sc:para></sc:listItem><sc:listItem><sc:para xml:space="preserve">temps total : <sc:textLeaf role="mathtex">t=t_1+t_2=\frac{d}{V}\left(1-\frac{S_i}{C_l}\right)</sc:textLeaf>.</sc:para></sc:listItem></sc:itemizedList><sc:para xml:space="preserve">La vitesse moyenne sur le segment vaut donc :</sc:para><sc:para xml:space="preserve"><sc:textLeaf role="mathtex">V_{cruise}=\frac{d}{t}=\frac{V\,C_l}{C_l-S_i}</sc:textLeaf></sc:para><sc:para xml:space="preserve">Cette relation vaut pour toute vitesse de vol et se lit directement sur la polaire des vitesses : pour une ascendance attendue <sc:textLeaf role="mathtex">C_l</sc:textLeaf>, la vitesse moyenne est maximale au point de tangence de la polaire avec la droite issue du point <sc:textLeaf role="mathtex">(0, C_l)</sc:textLeaf>. C'est la vitesse MacCready, ou vitesse à afficher. Exemple du rapport : pour <sc:textLeaf role="mathtex">C_l</sc:textLeaf> = 1 m/s, la tangente touche la polaire à 120 km/h, où <sc:textLeaf role="mathtex">S_i</sc:textLeaf> = −1,05 m/s, et la vitesse moyenne vaut 120 × 1/2,05, soit environ 58 km/h.</sc:para></op:txt></sp:txt><sp:res sc:refUri="/Ressources/14 - SFE 2023-02/ressources/asiri_page_051_image_067_vitesse_maccready.png"><op:resInfoM/></sp:res><sp:txt><op:txt><sc:para xml:space="preserve">Recherche de la vitesse MacCready sur la polaire des vitesses numérisée à 350 kg, pour une ascendance attendue nulle.</sc:para><sc:para xml:space="preserve">Le code applique cette recherche à la polaire des vitesses numérisée à 350 kg : pour une ascendance attendue nulle, la vitesse optimale vaut 29,2 m/s (105 km/h), pour une pente maximale de 0,0336, soit une finesse d'environ 30. Ces optima sont ensuite affichés dans un cockpit simulé (voir le grain 7.2.3).</sc:para><sc:para xml:space="preserve"><sc:inlineStyle role="emp">Note de relecture</sc:inlineStyle> : trois valeurs de la finesse maximale du Libelle coexistent dans les rapports : environ 44 avec le modèle parabolique ci-dessus, environ 30 avec la polaire numérisée (même ordre de grandeur que l'identification du grain 1.2.1C) et environ 37 sur les courbes de finesse du dossier de calcul (grain 1.2.1C). Le modèle parabolique est optimiste, les polaires numérisées pessimistes : une nouvelle identification est nécessaire avant d'utiliser ces valeurs, par exemple pour le bilan énergétique du kit.</sc:para></op:txt></sp:txt></op:res></sp:info><sp:info><op:pbTi><sp:title><op:title><sc:para xml:space="preserve">Code MATLAB</sc:para></op:title></sp:title></op:pbTi><op:res><sp:listing><op:code><sc:code mimeType="text/x-matlab" xml:space="preserve">% Optimums du vol plané du H201B Libelle : finesse maximale, taux de chute minimal,
+% vitesse MacCready (annexes du rapport SFE 2023-02, SLT Sultan ASIRI, juin 2023),
+% adapté de l'exemple MathWorks « Calculating Best Glide Quantities » (Aerospace Toolbox).
+% Reconstitué depuis le PDF du rapport (aucun fichier source fourni) :
+%  - les valeurs affichées dans le rapport ont été retirées du code et reportées en commentaire ;
+%  - deux lignes coupées dans le PDF (legend, disp) ont été rejointes ;
+%  - le signe « - » perdu dans (TAB_VZ(i_max_mc)-Vz_mc) a été rétabli.
+% Nécessite le fichier new_350.mat (polaire des vitesses à 350 kg numérisée avec Grabit,
+% Va en km/h et Vz en m/s), non fourni avec le rapport.
+% Résultat donné par le rapport :
+%   Mc Cready optimal speed for thermal ascendind velocity Vz=0 : 29.156 m/s
+
+%% Données de l'aéronef (H201B Libelle)
+W = 3430; % weight, N
+S = 9.8; % wing reference area, m^2;
+A = 22.95; % wing aspect ratio
+C_D0 = 0.0093; % flaps up parasite drag coefficient
+e = 1/(pi*A*0.0139); % airplane efficiency factor
+% first case : polaire parabolique
+Tab_Cz = .1:.1:1.3;
+Tab_Cx = C_D0 + 1/(pi*A*e)*Tab_Cz.^2;
+Tab_f = Tab_Cz ./ Tab_Cx;
+k2 = 1/(pi*A*e) % rapport : k2 = 0.0139
+% speed polar : polaire des vitesses numérisée à 350 kg
+load('new_350.mat')
+% Tab_Speed_Polar = horzcat(smooth(new_350(:,1)),smooth(new_350(:,2)));
+Tab_Speed_Polar = horzcat(new_350(:,1)/3.6,new_350(:,2));
+Tab_Cz = W./(.5*1.225*S*Tab_Speed_Polar(:,1).^2);
+Tab_Cx = Tab_Speed_Polar(:,2)./(.5*1.225*S*Tab_Speed_Polar(:,1).^3)*W;
+Tab_f = Tab_Cz ./ Tab_Cx;
+% second case : Cx = Cx0 + k1*Cz + k2 * Cz^2
+k1 = .01;
+k2 = 1/(pi*A*e)
+% Mac Cready (vertical thermal)
+Vz1 = 2;
+
+%% Conditions
+h = 4000; % altitude, ft
+phi = 0; % bank angle, deg
+h_m = convlength(h,'ft','m');
+[T, a, P, rho] = atmoscoesa(h_m, 'Warning');
+
+%% Best Glide Data
+lift_to_drag_ratio=Tab_Cz./Tab_Cx;
+[lift_to_drag_ratio_max,i_ltdrm]=max(lift_to_drag_ratio);
+TAS_bg = sqrt( (2*W)/(rho*S*Tab_Cz(i_ltdrm)) ); % TAS, m/s
+KTAS_bg = convvel(TAS_bg,'m/s','kts')';
+KCAS_bg = correctairspeed(KTAS_bg,a,P,'TAS','CAS')';
+gamma_bg_rad = asin( -1/lift_to_drag_ratio_max );
+gamma_bg = convang(gamma_bg_rad,'rad','deg');
+D_bg = -W*sin(gamma_bg_rad);
+L_bg = W*cos(gamma_bg_rad);
+qbar = dpressure([TAS_bg' zeros(size(TAS_bg,2),2)], rho);
+C_D_bg = D_bg./(qbar*S);
+C_L_bg = L_bg./(qbar*S);
+
+%% Verification
+TAS = 0.3048*(50:200)'; % true airspeed, m/s
+KTAS = convvel(TAS,'m/s','kts')'; % true airspeed, kts
+KCAS = correctairspeed(KTAS,a,P,'TAS','CAS')'; % corrected airspeed, kts
+qbar = dpressure([TAS zeros(size(TAS,1),2)], rho);
+Dp = qbar*S.*C_D0;
+Di = (2*W^2)/(rho*S*pi*e*A).*(TAS.^-2);
+D = Dp + Di;
+L = W;
+% Plot L/D versus KCAS
+h1 = figure;
+plot(KCAS,L./D);
+title('L/D vs. KCAS');
+xlabel('KCAS'); ylabel('L/D');
+hold on
+plot(KCAS_bg,L_bg/D_bg,'Marker','o','MarkerFaceColor','black',...
+'MarkerEdgeColor','black','Color','white');
+hold off
+legend('L/D','L_{bg}/D_{bg}','Location','Best');
+annotation('textarrow',[0.49 0.49],[0.23 0.12],'String','KCAS_{bg}');
+% Plot parasite, induced, and total drag curves
+h2 = figure;
+plot(KCAS,Dp,KCAS,Di,KCAS,D);
+title('Parasite, induced, and total drag curves');
+xlabel('KCAS'); ylabel('Drag, N');
+hold on
+plot(KCAS_bg,D_bg,'Marker','o','MarkerFaceColor','black',...
+'MarkerEdgeColor','black','Color','white');
+hold off
+legend('Parasite, D_p','Induced, D_i','Total, D','D_{bg}','Location','Best');
+annotation('textarrow',[0.49 0.49],[0.23 0.12],'String','KCAS_{bg}');
+close(h1,h2);
+
+%% Best descent rate
+C_L_bdr = sqrt(3*C_D0*pi*A*e);
+TAS_bdr = sqrt( (2*W)/(rho*S*C_L_bdr) ); % TAS, m/s
+K_i=1/(pi*A*e);
+C_D_bdr = C_D0+K_i*C_L_bdr^2;
+Vdr=-TAS_bdr*C_D_bdr/C_L_bdr; % descent rate
+Power_Required=D.*TAS;
+[Power_Required_min,i_prm]=min(Power_Required);
+TAS_bdr = TAS(i_prm); % TAS, m/s
+KTAS_bdr = convvel(TAS_bdr,'m/s','kts')'; % true airspeed, kts
+KCAS_bdr = correctairspeed(KTAS_bdr,a,P,'TAS','CAS')';
+TAB_VA=sqrt(W./(0.5*rho*S*Tab_Cz));
+TAB_VZ=-0.5*rho*S*TAB_VA.^3.*Tab_Cx/W;
+% plot power curve
+h3 = figure;
+plot(KCAS,Dp.*TAS,KCAS,Di.*TAS,KCAS,D.*TAS);
+title('Parasite, induced, and total drag power curves');
+xlabel('KCAS'); ylabel('POWER REQUIRED , W');
+hold on
+plot(KCAS_bdr,Power_Required_min,'Marker','o','MarkerFaceColor','black',...
+'MarkerEdgeColor','black','Color','white');
+hold off
+legend('Parasite, DP_p','Induced, DP_i','Total, DP','DP_{bdr}','Location','Best');
+annotation('textarrow',[0.29 0.29],[0.23 0.12],'String','KCAS_{bdr}');
+
+%% Mac Cready
+Vz_mc = 0 % vitesse de montée attendue dans la prochaine ascendance, m/s
+figure; plot(TAB_VA,TAB_VZ)
+slope_Mac=(Vz_mc-TAB_VZ)./(0-TAB_VA);
+[MAX_slope_Mac,i_max_mc]=max(slope_Mac) % rapport : MAX_slope_Mac = -0.0336, i_max_mc = 175
+hold on; plot([0 TAB_VA(1)],[Vz_mc (Vz_mc+(TAB_VZ(i_max_mc)-Vz_mc)/(TAB_VA(i_max_mc)-0)*TAB_VA(1))]);
+plot(TAB_VA(i_max_mc),TAB_VZ(i_max_mc),'r*') % plot([0 TAB_VA(i_max_mc)],[Vz_mc TAB_VZ(i_max_mc)])
+xlabel('Vitesse (m/s)'); ylabel('Vz (m/s)'); title('McCready')
+disp( ['Mc Cready optimal speed for thermal ascendind velocity Vz=',num2str(Vz_mc),' : ',num2str(TAB_VA(i_max_mc)),' m/s'])</sc:code></op:code></sp:listing><sp:res sc:refUri="/B-MANUEL_KHEPRI/01-AERO-MECAVOL/A-contenus/1-2-Application_Libelle_H201B/Codes/Optimums_vol_plane_MacCready.net"><op:resInfoM/></sp:res></op:res></sp:info></op:pb></sp:pb></op:expUc></sc:item>
